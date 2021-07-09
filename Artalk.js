@@ -636,7 +636,7 @@ function(e, t) {
 				serverUrl: "",
 				emoticons: v(49),
 				gravatar: {
-					cdn: "https://dn-qiniu-avatar.qbox.me/"
+					cdn: "https://gravatar.loli.net/avatar/"
 				},
 				darkMode: false
 			},
