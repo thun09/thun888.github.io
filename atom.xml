@@ -6,7 +6,7 @@
   <link href="https://thun888.xyz/atom.xml" rel="self"/>
   
   <link href="https://thun888.xyz/"/>
-  <updated>2021-07-09T12:05:10.712Z</updated>
+  <updated>2021-07-10T06:06:00.242Z</updated>
   <id>https://thun888.xyz/</id>
   
   <author>
@@ -21,22 +21,12 @@
     <link href="https://thun888.xyz/2021/07/09/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
     <id>https://thun888.xyz/2021/07/09/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</id>
     <published>2021-07-09T10:31:52.000Z</published>
-    <updated>2021-07-09T12:05:10.712Z</updated>
+    <updated>2021-07-10T06:06:00.242Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️</p></blockquote><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考</p></div><ul><li>更换了主题<ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li>更换评论系统为Artalk<ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li>将站长统计改为google统计</li><li>添加插件<ul><li>hexo-admonition</li></ul></li></ul>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;更换了主题&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;添加live2d&amp;amp;APlayer&lt;/li&gt;
-&lt;li&gt;小修改&lt;/l</summary>
-      
+    <summary type="html">仅供参考</summary>
     
     
     
@@ -50,16 +40,12 @@
     <link href="https://thun888.xyz/2021/06/10/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/"/>
     <id>https://thun888.xyz/2021/06/10/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/</id>
     <published>2021-06-10T06:37:59.000Z</published>
-    <updated>2021-07-09T12:09:55.108Z</updated>
+    <updated>2021-07-10T06:06:33.148Z</updated>
     
     <content type="html"><![CDATA[<p>在一些带宽小的机子上部署Oneindex又用nexmoe主题，就算套了cdn也慢（深有体会）</p><p>在学校开来给同学下电影开了十几秒愣是没加载出来<img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_42_diaoxie.png" style="zoom:25%;" /></p><h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><p>定位到网址目录下的/view/nexmoe</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210610144611.png" alt="image-20210610144610288"></p><p>将框选的（第7行的第11行）</p><p>进行替换</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210610145355.png" alt="image-20210610145355484"></p><p>第7行</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;//cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>第11行</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//cdn.jsdelivr.net/gh/thun888/tuku@master/img/mdui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>like this </p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210610145809.png" alt="image-20210610145809885"></p><h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p>修改前</p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210610150256.png" alt="image-20210610150255933" style="zoom:67%;" /><p>修改后</p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210610150015.png" alt="image-20210610150015253" style="zoom:67%;" />]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;在一些带宽小的机子上部署Oneindex又用nexmoe主题，就算套了cdn也慢（深有体会）&lt;/p&gt;
-&lt;p&gt;在学校开来给同学下电影开了十几秒愣是没加载出来&lt;img src=&quot;https://cdn.jsdelivr.net/gh/thun888/jian@master/co</summary>
-      
+    <summary type="html">在一些带宽小的机子上部署Oneindex又用nexmoe主题，在学校开来给同学下电影开了十几秒愣是没加载出来</summary>
     
     
     
@@ -160,9 +146,9 @@
     <link href="https://thun888.xyz/2021/04/04/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/"/>
     <id>https://thun888.xyz/2021/04/04/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/</id>
     <published>2021-04-04T04:24:14.000Z</published>
-    <updated>2021-07-09T12:09:20.038Z</updated>
+    <updated>2021-07-10T06:44:05.959Z</updated>
     
-    <content type="html"><![CDATA[<p>多说无益</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122529333.png" alt="image-20210404122529333"></p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122649005.png" alt="image-20210404122649005"></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://share.thun888.xyz/%E8%A7%86%E9%A2%91/%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92.mp4"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><p>下载地址：<br>teambition:<a href="http://camc.ga:5218/Dyson%20Sphere%20Program/">http://camc.ga:5218/Dyson%20Sphere%20Program/</a><br>oneindex:<a href="https://camc.ga/GAMES/Dyson%20Sphere%20Program/">https://camc.ga/GAMES/Dyson%20Sphere%20Program/</a></p><p>白给了一个硬币<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/coolapk_emotion_1020.png" alt="coolapk_emotion_1020" style="zoom:25%;" /></p>]]></content>
+    <content type="html"><![CDATA[<p>多说无益</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122529333.png" alt="image-20210404122529333"></p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122649005.png" alt="image-20210404122649005"></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://share.thun888.xyz/%E8%A7%86%E9%A2%91/%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92.mp4"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><p>下载地址：<br>teambition:<a href="http://camc.ga:5218/Dyson%20Sphere%20Program/">http://camc.ga:5218/Dyson%20Sphere%20Program/</a><br>oneindex:<a href="https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/">https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/</a></p><p>白给了一个硬币<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/coolapk_emotion_1020.png" alt="coolapk_emotion_1020" style="zoom:25%;" /></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;多说无益&lt;/p&gt;</summary>
@@ -387,10 +373,10 @@
   
   <entry>
     <title>杂物</title>
-    <link href="https://thun888.xyz/1999/11/29/%E6%9D%82%E7%89%A9/"/>
-    <id>https://thun888.xyz/1999/11/29/%E6%9D%82%E7%89%A9/</id>
-    <published>1999-11-29T04:39:49.000Z</published>
-    <updated>2021-07-09T12:10:02.553Z</updated>
+    <link href="https://thun888.xyz/2020/01/01/%E6%9D%82%E7%89%A9/"/>
+    <id>https://thun888.xyz/2020/01/01/%E6%9D%82%E7%89%A9/</id>
+    <published>2019-12-31T16:00:00.000Z</published>
+    <updated>2021-07-10T05:45:39.746Z</updated>
     
     <content type="html"><![CDATA[<p>81 空</p><p>82</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205400068.png" alt="image-20201225205400068"></p><p>83</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205458026.png" alt="image-20201225205458026"></p><p>84 Teambition</p><p>85</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205618608.png" alt="image-20201225205618608"></p><p>86</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205639257.png" alt="image-20201225205639257"></p><p>87 空</p><p>88 </p><p>89 空</p><p>90 </p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205813148.png" alt="image-20201225205813148"></p><p>91</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225205837083.png" alt="image-20201225205837083"></p><p>92 4399?</p><p>93 bbs</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225210141735.png" alt="image-20201225210141735"></p><p>94 互赞</p><p>95 <a href="https://www.cnblogs.com/stilldream/p/11161743.html">Chrome浏览器报错：ERR_UNSAFE_PORT</a></p><p>96 @#$@!%@#$!</p><p>97 二级域名</p><p>98</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201225210236698.png" alt="image-20201225210236698"></p><p>5212 云盘</p><p>5213 Teambition直链</p><h2 id="af415e486f47d406"><a href="#af415e486f47d406" class="headerlink" title="af415e486f47d406"></a>af415e486f47d406</h2><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"http://192.168.1.5:91/hls/cctv1hd.m3u8"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
     
