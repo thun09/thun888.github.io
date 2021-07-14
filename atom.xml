@@ -6,7 +6,7 @@
   <link href="https://thun888.xyz/atom.xml" rel="self"/>
   
   <link href="https://thun888.xyz/"/>
-  <updated>2021-07-10T11:07:28.284Z</updated>
+  <updated>2021-07-14T02:02:16.380Z</updated>
   <id>https://thun888.xyz/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>更新</title>
-    <link href="https://thun888.xyz/2021/07/10/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
-    <id>https://thun888.xyz/2021/07/10/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</id>
+    <link href="https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    <id>https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</id>
     <published>2021-07-10T11:06:52.000Z</published>
-    <updated>2021-07-10T11:07:28.284Z</updated>
+    <updated>2021-07-14T02:02:16.380Z</updated>
     
-    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考</p></div><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li><li><p>添加插件</p><ul><li>hexo-admonition</li></ul></li><li><p>加了chatra</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210710190716051.png" alt="image-20210710190716051"></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考</p></div><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li><li><p>添加插件</p><ul><li>hexo-admonition</li></ul></li><li><p>加了chatra</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210710190716051.png" alt="image-20210710190716051"></p></li><li><p>优化SEO</p><ul><li>改变url结构</li></ul></li></ul>]]></content>
     
     
     <summary type="html">仅供参考</summary>
@@ -37,8 +37,8 @@
   
   <entry>
     <title>优化Oneindex的nexmoe主题的加载速度</title>
-    <link href="https://thun888.xyz/2021/06/10/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/"/>
-    <id>https://thun888.xyz/2021/06/10/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/</id>
+    <link href="https://thun888.xyz/2021/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/"/>
+    <id>https://thun888.xyz/2021/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/</id>
     <published>2021-06-10T06:37:59.000Z</published>
     <updated>2021-07-10T06:06:33.148Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>记一次简单的水卡破解</title>
-    <link href="https://thun888.xyz/2021/05/04/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/"/>
-    <id>https://thun888.xyz/2021/05/04/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</id>
+    <link href="https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/"/>
+    <id>https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</id>
     <published>2021-05-04T08:28:00.000Z</published>
     <updated>2021-07-09T12:08:50.477Z</updated>
     
@@ -80,8 +80,8 @@
   
   <entry>
     <title>高质量地从ico转为svg</title>
-    <link href="https://thun888.xyz/2021/05/03/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/"/>
-    <id>https://thun888.xyz/2021/05/03/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/</id>
+    <link href="https://thun888.xyz/2021/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/"/>
+    <id>https://thun888.xyz/2021/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/</id>
     <published>2021-05-03T11:19:00.000Z</published>
     <updated>2021-07-09T12:08:09.565Z</updated>
     
@@ -101,8 +101,8 @@
   
   <entry>
     <title>解决小米手机升级MIUI12.5后无法进入谷歌商店</title>
-    <link href="https://thun888.xyz/2021/04/30/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/"/>
-    <id>https://thun888.xyz/2021/04/30/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</id>
+    <link href="https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/"/>
+    <id>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</id>
     <published>2021-04-30T15:02:58.000Z</published>
     <updated>2021-07-09T12:09:07.683Z</updated>
     
@@ -120,8 +120,8 @@
   
   <entry>
     <title>GitHub打不开的临时方法</title>
-    <link href="https://thun888.xyz/2021/04/05/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/"/>
-    <id>https://thun888.xyz/2021/04/05/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/</id>
+    <link href="https://thun888.xyz/2021/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/"/>
+    <id>https://thun888.xyz/2021/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/</id>
     <published>2021-04-05T06:03:30.000Z</published>
     <updated>2021-07-09T12:10:22.388Z</updated>
     
@@ -143,8 +143,8 @@
   
   <entry>
     <title>免费游玩《戴森球计划》</title>
-    <link href="https://thun888.xyz/2021/04/04/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/"/>
-    <id>https://thun888.xyz/2021/04/04/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/</id>
+    <link href="https://thun888.xyz/2021/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/"/>
+    <id>https://thun888.xyz/2021/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/</id>
     <published>2021-04-04T04:24:14.000Z</published>
     <updated>2021-07-10T06:44:05.959Z</updated>
     
@@ -162,8 +162,8 @@
   
   <entry>
     <title>VM虚拟机安装甜糖及配置教程</title>
-    <link href="https://thun888.xyz/2021/02/07/vm%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E7%94%9C%E7%B3%96%E5%8F%8A%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
-    <id>https://thun888.xyz/2021/02/07/vm%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E7%94%9C%E7%B3%96%E5%8F%8A%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</id>
+    <link href="https://thun888.xyz/2021/vm%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E7%94%9C%E7%B3%96%E5%8F%8A%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/"/>
+    <id>https://thun888.xyz/2021/vm%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E7%94%9C%E7%B3%96%E5%8F%8A%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</id>
     <published>2021-02-07T02:05:21.000Z</published>
     <updated>2021-07-09T12:10:38.691Z</updated>
     
@@ -184,8 +184,8 @@
   
   <entry>
     <title>搭建Teambition网盘的目录索引</title>
-    <link href="https://thun888.xyz/2021/01/01/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/"/>
-    <id>https://thun888.xyz/2021/01/01/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/</id>
+    <link href="https://thun888.xyz/2021/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/"/>
+    <id>https://thun888.xyz/2021/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/</id>
     <published>2021-01-01T01:39:47.000Z</published>
     <updated>2021-07-09T12:07:54.592Z</updated>
     
@@ -207,8 +207,8 @@
   
   <entry>
     <title>hexo更新pages出错应急方法</title>
-    <link href="https://thun888.xyz/2020/12/25/hexo%E6%9B%B4%E6%96%B0pages%E5%87%BA%E9%94%99%E5%BA%94%E6%80%A5%E6%96%B9%E6%B3%95/"/>
-    <id>https://thun888.xyz/2020/12/25/hexo%E6%9B%B4%E6%96%B0pages%E5%87%BA%E9%94%99%E5%BA%94%E6%80%A5%E6%96%B9%E6%B3%95/</id>
+    <link href="https://thun888.xyz/2020/hexo%E6%9B%B4%E6%96%B0pages%E5%87%BA%E9%94%99%E5%BA%94%E6%80%A5%E6%96%B9%E6%B3%95/"/>
+    <id>https://thun888.xyz/2020/hexo%E6%9B%B4%E6%96%B0pages%E5%87%BA%E9%94%99%E5%BA%94%E6%80%A5%E6%96%B9%E6%B3%95/</id>
     <published>2020-12-25T10:53:16.000Z</published>
     <updated>2021-07-09T12:10:29.994Z</updated>
     
@@ -234,8 +234,8 @@
   
   <entry>
     <title>用Batocera搭建属于你的游戏天地</title>
-    <link href="https://thun888.xyz/2020/11/14/%E7%94%A8batocera%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E6%B8%B8%E6%88%8F%E5%A4%A9%E5%9C%B0/"/>
-    <id>https://thun888.xyz/2020/11/14/%E7%94%A8batocera%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E6%B8%B8%E6%88%8F%E5%A4%A9%E5%9C%B0/</id>
+    <link href="https://thun888.xyz/2020/%E7%94%A8batocera%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E6%B8%B8%E6%88%8F%E5%A4%A9%E5%9C%B0/"/>
+    <id>https://thun888.xyz/2020/%E7%94%A8batocera%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E6%B8%B8%E6%88%8F%E5%A4%A9%E5%9C%B0/</id>
     <published>2020-11-14T09:42:35.000Z</published>
     <updated>2021-07-09T12:09:47.517Z</updated>
     
@@ -258,8 +258,8 @@
   
   <entry>
     <title>手把手做一个定时关机的脚本</title>
-    <link href="https://thun888.xyz/2020/10/31/%E6%89%8B%E6%8A%8A%E6%89%8B%E5%81%9A%E4%B8%80%E4%B8%AA%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E7%9A%84%E8%84%9A%E6%9C%AC/"/>
-    <id>https://thun888.xyz/2020/10/31/%E6%89%8B%E6%8A%8A%E6%89%8B%E5%81%9A%E4%B8%80%E4%B8%AA%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E7%9A%84%E8%84%9A%E6%9C%AC/</id>
+    <link href="https://thun888.xyz/2020/%E6%89%8B%E6%8A%8A%E6%89%8B%E5%81%9A%E4%B8%80%E4%B8%AA%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E7%9A%84%E8%84%9A%E6%9C%AC/"/>
+    <id>https://thun888.xyz/2020/%E6%89%8B%E6%8A%8A%E6%89%8B%E5%81%9A%E4%B8%80%E4%B8%AA%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E7%9A%84%E8%84%9A%E6%9C%AC/</id>
     <published>2020-10-31T01:37:04.000Z</published>
     <updated>2021-07-09T12:09:28.783Z</updated>
     
@@ -281,8 +281,8 @@
   
   <entry>
     <title>弹出C盘の快乐</title>
-    <link href="https://thun888.xyz/2020/10/30/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/"/>
-    <id>https://thun888.xyz/2020/10/30/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/</id>
+    <link href="https://thun888.xyz/2020/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/"/>
+    <id>https://thun888.xyz/2020/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/</id>
     <published>2020-10-30T14:21:01.000Z</published>
     <updated>2021-07-09T12:08:02.876Z</updated>
     
@@ -305,8 +305,8 @@
   
   <entry>
     <title>Free Minecraft Dungeons</title>
-    <link href="https://thun888.xyz/2020/08/29/Free%20Minecraft%20Dungeons/"/>
-    <id>https://thun888.xyz/2020/08/29/Free%20Minecraft%20Dungeons/</id>
+    <link href="https://thun888.xyz/2020/Free%20Minecraft%20Dungeons/"/>
+    <id>https://thun888.xyz/2020/Free%20Minecraft%20Dungeons/</id>
     <published>2020-08-29T14:36:27.000Z</published>
     <updated>2021-07-09T12:10:14.580Z</updated>
     
@@ -327,8 +327,8 @@
   
   <entry>
     <title>来在MC里玩电脑</title>
-    <link href="https://thun888.xyz/2020/08/22/%E6%9D%A5%E5%9C%A8MC%E9%87%8C%E7%8E%A9%E7%94%B5%E8%84%91/"/>
-    <id>https://thun888.xyz/2020/08/22/%E6%9D%A5%E5%9C%A8MC%E9%87%8C%E7%8E%A9%E7%94%B5%E8%84%91/</id>
+    <link href="https://thun888.xyz/2020/%E6%9D%A5%E5%9C%A8MC%E9%87%8C%E7%8E%A9%E7%94%B5%E8%84%91/"/>
+    <id>https://thun888.xyz/2020/%E6%9D%A5%E5%9C%A8MC%E9%87%8C%E7%8E%A9%E7%94%B5%E8%84%91/</id>
     <published>2020-08-22T10:18:02.000Z</published>
     <updated>2021-07-09T12:09:13.865Z</updated>
     
@@ -350,8 +350,8 @@
   
   <entry>
     <title>现已通过myssl认证</title>
-    <link href="https://thun888.xyz/2020/08/12/%E7%8E%B0%E5%B7%B2%E9%80%9A%E8%BF%87myssl%E8%AE%A4%E8%AF%81/"/>
-    <id>https://thun888.xyz/2020/08/12/%E7%8E%B0%E5%B7%B2%E9%80%9A%E8%BF%87myssl%E8%AE%A4%E8%AF%81/</id>
+    <link href="https://thun888.xyz/2020/%E7%8E%B0%E5%B7%B2%E9%80%9A%E8%BF%87myssl%E8%AE%A4%E8%AF%81/"/>
+    <id>https://thun888.xyz/2020/%E7%8E%B0%E5%B7%B2%E9%80%9A%E8%BF%87myssl%E8%AE%A4%E8%AF%81/</id>
     <published>2020-08-12T09:44:05.000Z</published>
     <updated>2021-07-09T12:09:36.874Z</updated>
     
@@ -373,8 +373,8 @@
   
   <entry>
     <title>杂物</title>
-    <link href="https://thun888.xyz/2020/01/01/%E6%9D%82%E7%89%A9/"/>
-    <id>https://thun888.xyz/2020/01/01/%E6%9D%82%E7%89%A9/</id>
+    <link href="https://thun888.xyz/2020/%E6%9D%82%E7%89%A9/"/>
+    <id>https://thun888.xyz/2020/%E6%9D%82%E7%89%A9/</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2021-07-10T05:45:39.746Z</updated>
     
