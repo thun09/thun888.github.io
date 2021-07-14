@@ -6,7 +6,7 @@
   <link href="https://thun888.xyz/atom.xml" rel="self"/>
   
   <link href="https://thun888.xyz/"/>
-  <updated>2021-07-14T02:02:16.380Z</updated>
+  <updated>2021-07-14T08:45:12.667Z</updated>
   <id>https://thun888.xyz/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
     <id>https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</id>
     <published>2021-07-10T11:06:52.000Z</published>
-    <updated>2021-07-14T02:02:16.380Z</updated>
+    <updated>2021-07-14T08:45:12.667Z</updated>
     
-    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考</p></div><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li><li><p>添加插件</p><ul><li>hexo-admonition</li></ul></li><li><p>加了chatra</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210710190716051.png" alt="image-20210710190716051"></p></li><li><p>优化SEO</p><ul><li>改变url结构</li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考<br>2021/7/14</p></div><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li><li><p>添加插件</p><ul><li>hexo-admonition</li></ul></li><li><p>加了chatra</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210710190716051.png" alt="image-20210710190716051"></p></li><li><p>优化SEO</p><ul><li>改变url结构</li><li>修好sitemap.xml</li></ul></li><li><p>？<br><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714164056055.png" alt="image-20210714164056055"></p></li><li><p>增加不算子统计</p></li></ul>]]></content>
     
     
-    <summary type="html">仅供参考</summary>
+    <summary type="html">博客更新啦</summary>
     
     
     
@@ -50,9 +50,9 @@
     
     
     
-    <category term="web" scheme="https://thun888.xyz/tags/web/"/>
-    
     <category term="oneindex" scheme="https://thun888.xyz/tags/oneindex/"/>
+    
+    <category term="web" scheme="https://thun888.xyz/tags/web/"/>
     
   </entry>
   

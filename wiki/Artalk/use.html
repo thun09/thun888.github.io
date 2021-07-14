@@ -41,8 +41,8 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709153509010.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709130807307.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709131032816.png">
-<meta property="article:published_time" content="2021-07-14T01:58:35.169Z">
-<meta property="article:modified_time" content="2021-07-14T01:58:35.169Z">
+<meta property="article:published_time" content="2021-07-14T07:01:19.372Z">
+<meta property="article:modified_time" content="2021-07-14T07:01:19.372Z">
 <meta property="article:author" content="thun888">
 <meta property="article:tag" content="喵~|thun888&#39;s Blog">
 <meta name="twitter:card" content="summary">
@@ -165,13 +165,13 @@
           
             
               <div class='doc-tree'>
-                <a class='doc-tree-link' href="/wiki/Artalk/develop.html"><span class="toc-text">开发</span></a>
+                <a class='doc-tree-link' href="/wiki/Artalk/QandA.html"><span class="toc-text">FAQ</span></a>
               </div>
             
           
             
               <div class='doc-tree'>
-                <a class='doc-tree-link' href="/wiki/Artalk/QandA.html"><span class="toc-text">FAQ</span></a>
+                <a class='doc-tree-link' href="/wiki/Artalk/develop.html"><span class="toc-text">开发</span></a>
               </div>
             
           
@@ -248,7 +248,7 @@
       
     </div>
     <div id='post-meta'>
-      更新于&nbsp;<time datetime='2021-07-14T01:58:35.169Z'>2021-07-14</time>
+      更新于&nbsp;<time datetime='2021-07-14T07:01:19.372Z'>2021-07-14</time>
     </div>
   
   </div>
@@ -318,32 +318,29 @@
 <li>ctrl+f打开搜索，输入<code>this.artalk.conf.pageKey</code>，将其替换为<code>realurl</code>即可</li>
 </ul>
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709131032816.png" alt="image-20210709131032816"></p>
-<p>PS：因为pagekey有点长，所以可能会一直转圈圈（超过5秒没加载完），参考Q&amp;A</p>
+<p>PS：因为pagekey有点长，所以可能会一直转圈圈（超过5秒没加载完），参考FAQ</p>
 </li>
 </ul>
 
   
 
+<HR width="95%" color=#987cb9 SIZE=3>
+<span style="text-align: center;display:block;">来评论啊ヾ(≧▽≦*)o</span>
+<HR width="95%" color=#987cb9 SIZE=3>
 <div id="ArtalkComments"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<script type="text/javascript">
+$(document).pjax('a', '#ArtalkComments', {
+  fragment: '.main' // △ 提取 AJAX 响应内容中指定的元素内容片段；参考：http://bsify.admui.com/jquery-pjax/
+})
+</script>
 <!-- ... -->
 <script src="https://cdn.jsdelivr.net/gh/thun888/tuku@latest/js/Artalk.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ArtalkJS/Artalk@master/dist/Artalk.css">
-<script>
-new Artalk({
-  el: '#ArtalkComments', // 元素选择
-  placeholder: '来啊，快活啊 ( ゜- ゜)', // 占位符
-  noComment: '快来成为第一个评论的人吧~', // 无评论时显示
-  pageKey: location.pathname,
-  serverUrl: 'https://artalk.thun888.xyz/',
-  readMore: { // 阅读更多配置
-    pageSize: 15, // 每次请求获取评论数
-    autoLoad: true // 滚动到底部自动加载
-  }
-});
-</script>
+<script src="/js/artalkconfig.js"></script>
   </article>
   
-<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body"><div class="post-title h2"><a href="/wiki/Artalk/develop.html">开发</a></div><div class="post-title fs14"><a href="/wiki/Artalk/install.html">上一篇：安装</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body"><div class="post-title h2"><a href="/wiki/Artalk/QandA.html">FAQ</a></div><div class="post-title fs14"><a href="/wiki/Artalk/install.html">上一篇：安装</a></div></section></div>
 
   
 

@@ -20,18 +20,28 @@
   <title>Artalk-doc：开发 - Thun888</title>
 
   
-    <meta name="description" content="咕~ 未压缩版本因为原版经过gzipped,导致源码可读性大大降低，这里提供一份未压缩的 蓝奏云">
+    <meta name="description" content="自定义头像源官方仓库中是在配置中确定  不过我不想每个页面都多出这么一句话来拖慢速度（虽然微乎其微但🙃）  打开artalk.js,搜索cdn   直接替换就好   自定义表情包 仓库里也有，这里作为补充  注意 由于自定义会使原本引入代码长一大截，建议新建一个js再在需要的地方引入    在new Artalk(&amp;#123;下打个回车，  粘贴emoticons: eData,    在new">
 <meta property="og:type" content="website">
 <meta property="og:title" content="开发">
 <meta property="og:url" content="https://thun888.xyz/wiki/Artalk/develop.html">
 <meta property="og:site_name" content="Thun888">
-<meta property="og:description" content="咕~ 未压缩版本因为原版经过gzipped,导致源码可读性大大降低，这里提供一份未压缩的 蓝奏云">
+<meta property="og:description" content="自定义头像源官方仓库中是在配置中确定  不过我不想每个页面都多出这么一句话来拖慢速度（虽然微乎其微但🙃）  打开artalk.js,搜索cdn   直接替换就好   自定义表情包 仓库里也有，这里作为补充  注意 由于自定义会使原本引入代码长一大截，建议新建一个js再在需要的地方引入    在new Artalk(&amp;#123;下打个回车，  粘贴emoticons: eData,    在new">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-07-09T13:01:10.855Z">
-<meta property="article:modified_time" content="2021-07-09T13:01:10.855Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150341481.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150632090.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150859429.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714151645540.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714152524758.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714152727550.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714153133048.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154556238.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154729782.png">
+<meta property="article:published_time" content="2021-07-14T08:18:05.769Z">
+<meta property="article:modified_time" content="2021-07-14T08:18:05.769Z">
 <meta property="article:author" content="thun888">
 <meta property="article:tag" content="喵~|thun888&#39;s Blog">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150341481.png">
   
   
 
@@ -148,15 +158,15 @@
             
           
             
-              <div class='doc-tree active'>
-                <a class='doc-tree-link active' href="/wiki/Artalk/develop.html"><span class="toc-text">开发</span></a>
-                <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%AA%E5%8E%8B%E7%BC%A9%E7%89%88%E6%9C%AC"><span class="toc-text">未压缩版本</span></a></li></ol>
+              <div class='doc-tree'>
+                <a class='doc-tree-link' href="/wiki/Artalk/QandA.html"><span class="toc-text">FAQ</span></a>
               </div>
             
           
             
-              <div class='doc-tree'>
-                <a class='doc-tree-link' href="/wiki/Artalk/QandA.html"><span class="toc-text">FAQ</span></a>
+              <div class='doc-tree active'>
+                <a class='doc-tree-link active' href="/wiki/Artalk/develop.html"><span class="toc-text">开发</span></a>
+                <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%B4%E5%83%8F%E6%BA%90"><span class="toc-text">自定义头像源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85%E5%8C%85"><span class="toc-text">自定义表情包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%92%AE%E6%96%87%E5%AD%97"><span class="toc-text">自定义按钮文字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%AA%E5%8E%8B%E7%BC%A9%E7%89%88%E6%9C%AC"><span class="toc-text">未压缩版本</span></a></li></ol>
               </div>
             
           
@@ -233,7 +243,7 @@
       
     </div>
     <div id='post-meta'>
-      更新于&nbsp;<time datetime='2021-07-09T13:01:10.855Z'>2021-07-09</time>
+      更新于&nbsp;<time datetime='2021-07-14T08:18:05.769Z'>2021-07-14</time>
     </div>
   
   </div>
@@ -241,29 +251,68 @@
 
   <article class='content md wiki reveal'>
   <h1 class="article-title"><span>开发</span></h1>
-  <p>咕~</p>
+  <h4 id="自定义头像源"><a href="#自定义头像源" class="headerlink" title="自定义头像源"></a>自定义头像源</h4><p>官方仓库中是在配置中确定</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150341481.png" alt="image-20210714150341481"></p>
+<p>不过我不想每个页面都多出这么一句话来拖慢速度（虽然微乎其微但🙃）</p>
+<ul>
+<li><p>打开artalk.js,搜索<code>cdn</code></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150632090.png" alt="image-20210714150632090"></p>
+</li>
+<li><p>直接替换就好</p>
+</li>
+</ul>
+<h4 id="自定义表情包"><a href="#自定义表情包" class="headerlink" title="自定义表情包"></a>自定义表情包</h4><blockquote>
+<p><strong>仓库里也有，这里作为补充</strong><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714150859429.png" alt="image-20210714150859429"></p>
+</blockquote>
+<div class="admonition warning"><p class="admonition-title">注意
+</p><p>由于自定义会使原本引入代码长一大截，建议新建一个js再在需要的地方引入<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714151645540.png" alt="image-20210714151645540" /></p>
+</div>
+
+<ul>
+<li>在<code>new Artalk(&#123;</code>下打个回车，  粘贴<code>emoticons: eData,</code></li>
+</ul>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714152524758.png" alt="image-20210714152524758"></p>
+<ul>
+<li><p>在<code>new Artalk(&#123;</code>上粘贴</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> eData = &#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714152727550.png" alt="image-20210714152727550"></p>
+</li>
+<li><p>打开<a target="_blank" rel="noopener" href="https://raw.fastgit.org/ArtalkJS/Artalk/master/src/assets/emoticons.json">表情包配置格式参考</a>，把<code>第一个&#123;</code>和<code>最后一个&#125;</code>中的文字复制到let eData = { }中</p>
+</li>
+</ul>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714153133048.png" alt="image-20210714153133048"></p>
+<ul>
+<li><p>然后就是自定义了，在复制后的倒数第二个}后加个<code>,</code>，在<code>，</code>后按回车，按以下格式进行</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;分类名称&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;inputType&quot;</span>: <span class="string">&quot;image&quot;</span>, <span class="comment">//类型</span></span><br><span class="line">      <span class="string">&quot;container&quot;</span>: &#123;</span><br><span class="line">            <span class="string">&quot;表情名称&quot;</span>: <span class="string">&quot;表情url/颜文字对应文字&quot;</span>,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<div class="admonition warning"><p class="admonition-title">注意
+</p><p>在类型一项中，填写<code>emoticon</code>即”颜文字类“，点击插入对应文字<br>填写<code>image</code>即”图片类“，点击插入对应图片<br>表情url中有特殊符号时会无法显示（bug）<br>由于没有懒加载，添加过多可能会拖慢速度</p>
+</div>
+
+<p>配置完像这样</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154556238.png" alt="image-20210714154556238"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154729782.png" alt="image-20210714154729782"></p>
+<h4 id="自定义按钮文字"><a href="#自定义按钮文字" class="headerlink" title="自定义按钮文字"></a>自定义按钮文字</h4><p>没什么好说的，打开artalk.js搜索替换就好</p>
 <h4 id="未压缩版本"><a href="#未压缩版本" class="headerlink" title="未压缩版本"></a>未压缩版本</h4><p>因为原版经过gzipped,导致源码可读性大大降低，这里提供一份未压缩的</p>
 <p><a target="_blank" rel="noopener" href="https://thun888.lanzoui.com/i5S6dr7379i">蓝奏云</a></p>
 
   
 
+<HR width="95%" color=#987cb9 SIZE=3>
+<span style="text-align: center;display:block;">来评论啊ヾ(≧▽≦*)o</span>
+<HR width="95%" color=#987cb9 SIZE=3>
 <div id="ArtalkComments"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<script type="text/javascript">
+$(document).pjax('a', '#ArtalkComments', {
+  fragment: '.main' // △ 提取 AJAX 响应内容中指定的元素内容片段；参考：http://bsify.admui.com/jquery-pjax/
+})
+</script>
 <!-- ... -->
 <script src="https://cdn.jsdelivr.net/gh/thun888/tuku@latest/js/Artalk.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ArtalkJS/Artalk@master/dist/Artalk.css">
-<script>
-new Artalk({
-  el: '#ArtalkComments', // 元素选择
-  placeholder: '来啊，快活啊 ( ゜- ゜)', // 占位符
-  noComment: '快来成为第一个评论的人吧~', // 无评论时显示
-  pageKey: location.pathname,
-  serverUrl: 'https://artalk.thun888.xyz/',
-  readMore: { // 阅读更多配置
-    pageSize: 15, // 每次请求获取评论数
-    autoLoad: true // 滚动到底部自动加载
-  }
-});
-</script>
+<script src="/js/artalkconfig.js"></script>
   </article>
   
 <div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body"><div class="post-title h2"><a href="/wiki/Artalk/more-url.html">相关链接</a></div><div class="post-title fs14"><a href="/wiki/Artalk/use.html">上一篇：使用</a></div></section></div>
