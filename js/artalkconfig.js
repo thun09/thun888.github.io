@@ -196,7 +196,7 @@ let eData = {
                   "酷牛啤": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173336000.png",
                   "酷py交易": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173349000.png",
                   "酷酷安": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173363000.png",
-                  "酷酷安钓鱼": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173377000.png",
+                  "酷酷安钓鱼": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173377000.png"
       }
     },
     "咖波": {
@@ -220,7 +220,7 @@ let eData = {
               "蓝之夸奖": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250376000.gif",
               "蓝熊震惊": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250436000.gif",
               "熊甩蓝": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250455000.gif",
-              "蓝鸭之爱": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250517000.gif",
+              "蓝鸭之爱": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250517000.gif"
     }
   }
 }
