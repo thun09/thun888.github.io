@@ -97,10 +97,11 @@ let eData = {
         "将稽就稽": "https://i.loli.net/2020/04/30/KVwf8qCrZts6WOT.gif"
       }
     },
-    "酷安": {
+    "酷安（默认）": {
           "inputType": "image",
           "container": {
-                  "酷惊讶": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626164541000.png",
+                "酷哈哈哈": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626164307000.png",
+                "酷惊讶": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626164541000.png",
                   "酷呲牙": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626166623000.png",
                   "酷流泪": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626165223000.png",
                   "酷可爱": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626165250000.png",
@@ -193,10 +194,20 @@ let eData = {
                   "酷心碎": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_50_xinsui.png",
                   "酷玫瑰": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_41_meigui.png",
                   "酷凋谢": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_42_diaoxie.png",
+                  "酷菜刀": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_39_caidao.png",
                   "酷牛啤": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173336000.png",
                   "酷py交易": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173349000.png",
+                  "酷绿药丸": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_55_lvyaowan.png",
+                  "酷红药丸": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_54_hongyaowan.png",
                   "酷酷安": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173363000.png",
                   "酷酷安钓鱼": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173377000.png",
+                  "酷绿帽": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173392000.png",
+                  "酷安绿帽": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173409000.png",
+                  "酷火把": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/coolapk_emotion_83_huoba.png",
+                  "夏阁艾迪剑": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173419000.png",
+                  "下次一定": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173440000.png",
+                  "酷安土豆": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173450000.png",
+                  "头条通知书": "https://cdn.jsdelivr.net/gh/thun888/CoolapkEmoji@master/1626173462000.png"
       }
     },
     "咖波": {
