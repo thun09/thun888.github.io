@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thun888.xyz/2021/%E4%B8%BAStellar%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0HPP%E8%AF%B4%E8%AF%B4%E5%8A%9F%E8%83%BD/</loc>
+    
+    <lastmod>2021-07-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thun888.xyz/wiki/Artalk/install.html</loc>
     
     <lastmod>2021-07-16</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://thun888.xyz/wiki/Artalk/develop.html</loc>
-    
-    <lastmod>2021-07-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/2021/%E4%B8%BAStellar%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0HPP%E8%AF%B4%E8%AF%B4%E5%8A%9F%E8%83%BD/</loc>
     
     <lastmod>2021-07-16</lastmod>
     
@@ -270,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/linux/</loc>
+    <loc>https://thun888.xyz/tags/MIUI/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/MIUI/</loc>
+    <loc>https://thun888.xyz/tags/linux/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
