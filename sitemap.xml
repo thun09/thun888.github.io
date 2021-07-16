@@ -207,6 +207,13 @@
   </url>
   
   <url>
+    <loc>https://thun888.xyz/tags/blog/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://thun888.xyz/tags/github/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -228,21 +235,7 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/blog/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/oneindex/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/web/</loc>
+    <loc>https://thun888.xyz/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -256,7 +249,7 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://thun888.xyz/tags/web/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -277,13 +270,6 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/MIUI/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://thun888.xyz/tags/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -292,6 +278,20 @@
   
   <url>
     <loc>https://thun888.xyz/tags/%E8%BD%AC%E6%8D%A2/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/MIUI/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/oneindex/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
