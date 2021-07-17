@@ -122,7 +122,7 @@ let eData = {
     defaultAvatar: 'mp',
     emoticons: eData,
     el: '#ArtalkComments', // 元素选择
-    placeholder: '来啊，快活啊[]~(￣▽￣)~*', // 占位符
+    placeholder: '来评论啊ヾ(≧▽≦*)', // 占位符
     noComment: '快来成为第一个评论的人吧~', // 无评论时显示
     pageKey: location.pathname,
     serverUrl: 'https://artalk.thun888.xyz/',
