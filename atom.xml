@@ -36,25 +36,6 @@
   </entry>
   
   <entry>
-    <title>更新</title>
-    <link href="https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
-    <id>https://thun888.xyz/2021/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</id>
-    <published>2021-07-10T11:06:52.000Z</published>
-    <updated>2021-07-14T08:58:18.746Z</updated>
-    
-    <content type="html"><![CDATA[<div class="admonition warning"><p class="admonition-title">warning</p><p>由于我在几个月前就已经开始而我一直懒得写，有很大一部分都没有列出来🤦‍♀️仅供参考<br>2021/7/14</p></div><ul><li><p>更换了主题</p><ul><li>添加live2d&amp;APlayer</li><li>小修改</li><li>补充左下角图标链接</li></ul></li><li><p>更换评论系统为Artalk</p><ul><li>升级后端为0.0.3</li><li>改动artalk.js</li></ul></li><li><p>将站长统计改为google统计</p></li><li><p>添加插件</p><ul><li>hexo-admonition</li></ul></li><li><p>加了chatra</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210710190716051.png" alt="image-20210710190716051"></p></li><li><p>优化SEO</p><ul><li>改变url结构</li><li>修好sitemap.xml</li></ul></li><li><p>？<br><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714164056055.png" alt="image-20210714164056055"></p></li><li><p>增加不算子统计</p></li></ul>]]></content>
-    
-    
-    <summary type="html">博客更新啦</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://thun888.xyz/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
     <title>优化Oneindex的nexmoe主题的加载速度</title>
     <link href="https://thun888.xyz/2021/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/"/>
     <id>https://thun888.xyz/2021/%E4%BC%98%E5%8C%96Oneindex%E7%9A%84nexmoe%E4%B8%BB%E9%A2%98%E7%9A%84%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6/</id>

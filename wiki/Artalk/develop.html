@@ -36,8 +36,8 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714153133048.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154556238.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154729782.png">
-<meta property="article:published_time" content="2021-07-16T02:48:30.403Z">
-<meta property="article:modified_time" content="2021-07-16T02:48:30.403Z">
+<meta property="article:published_time" content="2021-07-18T01:40:02.896Z">
+<meta property="article:modified_time" content="2021-07-18T01:40:02.896Z">
 <meta property="article:author" content="thun888">
 <meta property="article:tag" content="喵~|thun888&#39;s Blog">
 <meta name="twitter:card" content="summary">
@@ -139,7 +139,7 @@
             
               <div class='doc-tree active'>
                 <a class='doc-tree-link active' href="/wiki/Artalk/develop.html"><span class="toc-text">开发</span></a>
-                <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%B4%E5%83%8F%E6%BA%90"><span class="toc-text">自定义头像源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85%E5%8C%85"><span class="toc-text">自定义表情包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%92%AE%E6%96%87%E5%AD%97"><span class="toc-text">自定义按钮文字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%AA%E5%8E%8B%E7%BC%A9%E7%89%88%E6%9C%AC"><span class="toc-text">未压缩版本</span></a></li></ol>
+                <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%B4%E5%83%8F%E6%BA%90"><span class="toc-text">自定义头像源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A1%A8%E6%83%85%E5%8C%85"><span class="toc-text">自定义表情包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%92%AE%E6%96%87%E5%AD%97"><span class="toc-text">自定义按钮文字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%8A%A0%E8%BD%BD"><span class="toc-text">按钮点击加载</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%AA%E5%8E%8B%E7%BC%A9%E7%89%88%E6%9C%AC"><span class="toc-text">未压缩版本</span></a></li></ol>
               </div>
             
           
@@ -167,6 +167,8 @@
       
       
   
+    
+    
     
     
     
@@ -213,12 +215,14 @@
         
         
         
+        
+        
         <span class="sep"></span>
         <a class='cap breadcrumb' href='/wiki/Artalk/index.html'>Artalk-doc</a>
       
     </div>
     <div id='post-meta'>
-      更新于&nbsp;<time datetime='2021-07-16T02:48:30.403Z'>2021-07-16</time>
+      更新于&nbsp;<time datetime='2021-07-18T01:40:02.896Z'>2021-07-18</time>
     </div>
   
   </div>
@@ -262,7 +266,7 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;分类名称&quot;</span><span class="string">:</span> &#123;</span><br><span class="line">      <span class="attr">&quot;inputType&quot;:</span> <span class="string">&quot;image&quot;</span>, <span class="string">//类型</span></span><br><span class="line">      <span class="attr">&quot;container&quot;:</span> &#123;</span><br><span class="line">            <span class="string">&quot;表情名称&quot;</span><span class="string">:</span> <span class="string">&quot;表情url/颜文字对应文字&quot;</span>,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 <div class="admonition warning"><p class="admonition-title">注意
-</p><p>在类型一项中，填写<code>emoticon</code>即”颜文字类“，点击插入对应文字<br>填写<code>image</code>即”图片类“，点击插入对应图片<br>表情url中有特殊符号时会无法显示（bug）<br>由于没有懒加载，添加过多可能会拖慢速度</p>
+</p><p>在类型一项中，填写<code>emoticon</code>即”颜文字类“，点击插入对应文字<br>填写<code>image</code>即”图片类“，点击插入对应图片<br>表情url中有特殊符号时会无法显示（bug）<br></p>
 </div>
 
 <p><del>本站一部分表情用<code>超星学习通</code>作为图床，毕竟又快又不要钱~😎</del></p>
@@ -271,13 +275,23 @@
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154556238.png" alt="image-20210714154556238"></p>
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210714154729782.png" alt="image-20210714154729782"></p>
 <h4 id="自定义按钮文字"><a href="#自定义按钮文字" class="headerlink" title="自定义按钮文字"></a>自定义按钮文字</h4><p>没什么好说的，打开artalk.js搜索替换就好</p>
+<h4 id="按钮点击加载"><a href="#按钮点击加载" class="headerlink" title="按钮点击加载"></a>按钮点击加载</h4><p>artalk虽然目前没有懒加载表情，但我们可以通过网页加载好后让访客点击按钮再加载</p>
+<ul>
+<li><p>找到原来放artalk.js的地方，替换为</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="function"><span class="keyword">function</span> <span class="title">load</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">        <span class="keyword">var</span> script = <span class="built_in">document</span>.createElement(<span class="string">&quot;script&quot;</span>);</span></span><br><span class="line"><span class="javascript">        script.type=<span class="string">&quot;text/javascript&quot;</span>;</span></span><br><span class="line"><span class="javascript">        script.src=<span class="string">&#x27;/js/artalkconfig.js&#x27;</span>; <span class="comment">//替换为自己的artalk.js链接</span></span></span><br><span class="line"><span class="javascript">        <span class="built_in">document</span>.body.appendChild(script)</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>找个地方放（button标签我试了好久没行，不知为何）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;javascript:load();&quot;&gt;点击加载评论&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>自行美化[doge]</p>
+</li>
+</ul>
 <h4 id="未压缩版本"><a href="#未压缩版本" class="headerlink" title="未压缩版本"></a>未压缩版本</h4><p>因为原版经过gzipped,导致源码可读性大大降低，这里提供一份未压缩的</p>
 <p><a target="_blank" rel="noopener" href="https://thun888.lanzoui.com/i5S6dr7379i">蓝奏云</a></p>
 
   
 
 <HR width="95%" color=#987cb9 SIZE=3>
-<span style="text-align: center;display:block;">(￣︶￣)↗[<a target="_blank" rel="noopener" href="https://ipfs.thun888.xyz">文件</a>/<a target="_blank" rel="noopener" href="https://7bu.top">图片</a>上传]</span>
+<a id="artalkup" href="javascript:load();" class="ui-box bottom-rightStart-burst" style="text-align: center;display:block;background-color:var(--link-hover-bg-color);font-size:20px">(o゜▽゜)o点击加载评论</a><span id="fileup" style="text-align: center;display:block;"></span>
 <HR width="95%" color=#987cb9 SIZE=3>
 <div id="ArtalkComments"></div>
 <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
@@ -289,7 +303,15 @@ $(document).pjax('a', '#ArtalkComments', {
 <!-- ... -->
 <script src="https://cdn.jsdelivr.net/gh/thun888/tuku@latest/js/Artalk.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ArtalkJS/Artalk@master/dist/Artalk.css">
-<script src="https://cdn.jsdelivr.net/gh/thun888/thun888.github.io@master/js/artalkconfig.min.js"></script>
+<script>
+function load(){
+        var script = document.createElement("script");
+        script.type="text/javascript";
+        script.src='https://cdn.jsdelivr.net/gh/thun888/thun888.github.io@master/js/artalkconfig.min.js';
+        document.body.appendChild(script)
+    }
+</script>
+
 
   </article>
   
@@ -306,20 +328,6 @@ $(document).pjax('a', '#ArtalkComments', {
 <p>本站总访问量：<span id="busuanzi_value_site_pv">∞</span>次,<span id="bloggeractivetime">博主在∞分钟前偷偷瞄了一眼博客</span></p>
 <p>本站由 <a href="https://thun888.xyz/">@thun888</a> 使用HEXO创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.0.1">Stellar</a> 主题。</p>
 </div></footer>
-<!-- Chatra {literal} -->
-<script>
-  (function(d, w, c) {
-      w.ChatraID = 'MqwspXJuWMvtLhdoS';
-      var s = d.createElement('script');
-      w[c] = w[c] || function() {
-          (w[c].q = w[c].q || []).push(arguments);
-      };
-      s.async = true;
-      s.src = 'https://cdn.jsdelivr.net/gh/thun888/tuku@master/js/chatra.js';
-      if (d.head) d.head.appendChild(s);
-  })(document, window, 'Chatra');
-</script>
-<!-- /Chatra {/literal} -->
 <script>
 var now = new Date();
 function createtime(){

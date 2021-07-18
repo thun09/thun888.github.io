@@ -116,8 +116,34 @@ let eData = {
                   "酷喵喵": "https://bu.dusays.com/2021/01/15/d2ea812f4dfb5.png",
                   "酷二哈": "https://bu.dusays.com/2021/07/16/8ed127ab83cf9.png",
       }
+    },
+    "咖波": {
+        "inputType": "image",
+        "container": {
+              "一拍即合": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626249898000.gif",
+              "蓝熊乌拉": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626249926000.gif",
+              "蓝熊mua": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626249948000.gif",
+              "蓝熊ok": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626249963000.gif",
+              "蓝熊敬礼": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626249984000.gif",
+              "蓝熊的赞": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250008000.gif",
+              "蓝熊的感谢": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250029000.gif",
+              "蓝熊之嘲笑": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250049000.gif",
+              "鸭之鞭策": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250074000.gif",
+              "泪流满面": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250094000.gif",
+              "蓝熊看戏": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250112000.gif",
+              "递茶": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250174000.gif",
+              "蓝鸭之尬": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250225000.gif",
+              "虫之兴奋": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250301000.gif",
+              "蓝之嘲讽": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250349000.gif",
+              "蓝之夸奖": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250376000.gif",
+              "蓝熊震惊": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250436000.gif",
+              "熊甩蓝": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250455000.gif",
+              "蓝鸭之爱": "https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/1626250517000.gif",
+    }
   }
 }
+document.getElementById("artalkup").innerHTML=''
+document.getElementById("fileup").innerHTML='(￣︶￣)↗[<a href="https://ipfs.thun888.xyz">文件</a>/<a href="https://7bu.top">图片</a>上传]'
   new Artalk({
     defaultAvatar: 'mp',
     emoticons: eData,
