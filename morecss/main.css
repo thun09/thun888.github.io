@@ -1,3 +1,4 @@
+/* hexo-admonition */
 .admonition {
   margin: 1.5625em 0;
   padding: .6rem;
@@ -70,4 +71,21 @@ p.admonition-title {
 
 .admonition>:last-child {
   margin-bottom: 0 !important;
+}
+
+/* <a>下划线 */
+.rlink {
+  text-decoration: none;
+  background-image: linear-gradient(#987cb9, #987cb9);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0 3px;
+  transition: background-size 500ms ease-in-out;
+}
+
+.rlink:hover {
+  background-size: 100% 3px;
+}
+a:hover {
+  color:#4685cc;
 }
