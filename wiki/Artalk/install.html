@@ -20,12 +20,12 @@
   <title>Artalk-doc：安装 - Thun888</title>
 
   
-    <meta name="description" content="补全依赖通过Goorm先登录  新建容器  仓库地址  完成后在代码框中依次输入 1.安装composer     2.安装php扩展库   3.安装依赖   4.下载到本地  压缩 12cd ..&#x2F;zip -q -r Artalk.zip &#x2F;workspace&#x2F;Artalk-API-PHP  注:&#x2F;workspace&#x2F;Artalk-API-PHP根据实际修改   再取得ssh连接地址，端口及私钥">
+    <meta name="description" content="补全依赖通过Goorm先登录  新建容器  仓库地址  完成后在代码框中依次输入 1.安装composer     2.安装php扩展库     3.安装依赖   4.下载到本地  压缩 12cd ..&#x2F;zip -q -r Artalk.zip &#x2F;workspace&#x2F;Artalk-API-PHP  注:&#x2F;workspace&#x2F;Artalk-API-PHP根据实际修改   再取得ssh连接地址，端口及">
 <meta property="og:type" content="website">
 <meta property="og:title" content="安装">
 <meta property="og:url" content="https://thun888.xyz/wiki/Artalk/install.html">
 <meta property="og:site_name" content="Thun888">
-<meta property="og:description" content="补全依赖通过Goorm先登录  新建容器  仓库地址  完成后在代码框中依次输入 1.安装composer     2.安装php扩展库   3.安装依赖   4.下载到本地  压缩 12cd ..&#x2F;zip -q -r Artalk.zip &#x2F;workspace&#x2F;Artalk-API-PHP  注:&#x2F;workspace&#x2F;Artalk-API-PHP根据实际修改   再取得ssh连接地址，端口及私钥">
+<meta property="og:description" content="补全依赖通过Goorm先登录  新建容器  仓库地址  完成后在代码框中依次输入 1.安装composer     2.安装php扩展库     3.安装依赖   4.下载到本地  压缩 12cd ..&#x2F;zip -q -r Artalk.zip &#x2F;workspace&#x2F;Artalk-API-PHP  注:&#x2F;workspace&#x2F;Artalk-API-PHP根据实际修改   再取得ssh连接地址，端口及">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://bu.dusays.com/2021/07/16/5709679bc5e10.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210626204541312.png">
@@ -50,8 +50,8 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210708215101895.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709080426615.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210709080444423.png">
-<meta property="article:published_time" content="2021-07-16T04:01:16.273Z">
-<meta property="article:modified_time" content="2021-07-16T04:01:16.273Z">
+<meta property="article:published_time" content="2021-07-19T05:20:38.766Z">
+<meta property="article:modified_time" content="2021-07-19T05:20:38.766Z">
 <meta property="article:author" content="thun888">
 <meta property="article:tag" content="喵~|thun888&#39;s Blog">
 <meta name="twitter:card" content="summary">
@@ -73,7 +73,6 @@
   
   
   
-    <!-- 音乐播放器 --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><!-- 音乐播放器css -->
   <link rel="icon" type="image/png" href="/favicon.ico">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-831BBQ2K9S"></script>
@@ -108,19 +107,11 @@
 
 
 </div>
-<div class="widget-wrap" id="markdown">
-  <div class="widget-header cap dis-select">
-    <span class="name">Travellings</span>
-  </div>
-  <div class="widget-body fs14">
   <p><a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力"><img no-lazy src="https://cdn.jsdelivr.net/gh/volfclub/travellings@12.0/assets/logo.gif" data-src="https://cdn.jsdelivr.net/gh/volfclub/travellings@12.0/assets/logo.gif" alt="开往-友链接力" width="120" data-ll-status="loaded" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a></p>
-
-<div class="widget-wrap" id="markdown">
-  <div class="widget-header cap dis-select">
-    <span class="name">Music</span>
-  </div>
-  <div class="widget-body fs14">
-    <div class="aplayer" data-id="2288037900" data-server="netease" data-type="playlist"  data-listFolded="true" data-preload="none" data-autoplay="false" data-volume="0.6"></div><script>var meting_api='https://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <div class="aplayer" data-theme="" data-id="2288037900" data-server="netease" data-type="playlist"  data-listFolded="true" data-preload="none" data-autoplay="false" data-volume="0.6"></div>
+    <script>var meting_api='https://api.mizore.cn/meting/api.php?server=:server&type=:type&id=:id'</script>
 
 
 
@@ -132,7 +123,7 @@
 
   
   
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" id="home" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" id="menu" href="/wiki/">项目</a><span class="sep"></span><a class="cap breadcrumb" id="group" href="/wiki/categories/%E6%96%87%E6%A1%A3/index.html">文档</a><span class="sep"></span><a class="cap breadcrumb" id="proj" href="/wiki/Artalk/index.html">Artalk-doc</a></div><div id="post-meta">更新于&nbsp;<time datetime="2021-07-16T04:01:16.273Z">2021-07-16</time></div></div>
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" id="home" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" id="menu" href="/wiki/">项目</a><span class="sep"></span><a class="cap breadcrumb" id="group" href="/wiki/categories/%E6%96%87%E6%A1%A3/index.html">文档</a><span class="sep"></span><a class="cap breadcrumb" id="proj" href="/wiki/Artalk/index.html">Artalk-doc</a></div><div id="post-meta">更新于&nbsp;<time datetime="2021-07-19T05:20:38.766Z">2021-07-19</time></div></div>
 
   <article class='content md wiki reveal'>
   <h1 class="article-title"><span>安装</span></h1>
@@ -149,7 +140,9 @@
 <div class="tag-plugin copy"><input class="copy-area" readonly id="copy-mvcomposer.pharusrlocalbincomposer" value="mv composer.phar /usr/local/bin/composer"><button class="copy-btn" onclick="util.copy(&quot;copy-mvcomposer.pharusrlocalbincomposer&quot;,&quot;Copied!&quot;)"><svg class="icon copy-btn" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></button></div>
 
 <p>2.安装php扩展库</p>
-<div class="tag-plugin copy"><input class="copy-area" readonly id="copy-aptupdateaptinstallphp7.3gdphp7.3curlphp7.3mbstringy" value="apt update&apt install php7.3-gd php7.3-curl php7.3-mbstring -y"><button class="copy-btn" onclick="util.copy(&quot;copy-aptupdateaptinstallphp7.3gdphp7.3curlphp7.3mbstringy&quot;,&quot;Copied!&quot;)"><svg class="icon copy-btn" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></button></div>
+<div class="tag-plugin copy"><input class="copy-area" readonly id="copy-aptupdatey" value="apt update -y"><button class="copy-btn" onclick="util.copy(&quot;copy-aptupdatey&quot;,&quot;Copied!&quot;)"><svg class="icon copy-btn" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></button></div>
+
+<div class="tag-plugin copy"><input class="copy-area" readonly id="copy-aptinstallphp7.3gdphp7.3curlphp7.3mbstringy" value="apt install php7.3-gd php7.3-curl php7.3-mbstring -y"><button class="copy-btn" onclick="util.copy(&quot;copy-aptinstallphp7.3gdphp7.3curlphp7.3mbstringy&quot;,&quot;Copied!&quot;)"><svg class="icon copy-btn" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></button></div>
 
 <p>3.安装依赖</p>
 <div class="tag-plugin copy"><input class="copy-area" readonly id="copy-composerinstall" value="composer install"><button class="copy-btn" onclick="util.copy(&quot;copy-composerinstall&quot;,&quot;Copied!&quot;)"><svg class="icon copy-btn" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></button></div>
@@ -260,40 +253,7 @@
 <p>本站总访问量：<span id="busuanzi_value_site_pv">∞</span>次,<span id="bloggeractivetime">博主在∞分钟前偷偷瞄了一眼博客</span></p>
 <p>本站由 <a href="https://thun888.xyz/">@thun888</a> 使用HEXO创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.2.1">Stellar</a> 主题。</p>
 </div></footer>
-<script>
-var now = new Date();
-function createtime(){
-    var grt= new Date("08/9/2020 23:30:00");//此处修改你的建站时间或者网站上线时间
-    now.setTime(now.getTime()+250);
-    days = (now - grt ) / 1000 / 60 / 60 / 24;
-    dnum = Math.floor(days);
-    hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
-    hnum = Math.floor(hours);
-    if(String(hnum).length ==1 ){
-        hnum = "0" + hnum;
-    }
-    minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-    mnum = Math.floor(minutes);
-    if(String(mnum).length ==1 ){
-              mnum = "0" + mnum;
-    }
-    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-    snum = Math.round(seconds);
-    if(String(snum).length ==1 ){
-              snum = "0" + snum;
-    }
-    document.getElementById("timeDate").innerHTML = "本站已运行&nbsp"+dnum+"&nbsp天";
-    document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
-}
-setInterval("createtime()",250);
-</script>
-<script src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/js/activate-power-mode.js"></script>
-<script>
-POWERMODE.colorful = true; // make power mode colorful  
-POWERMODE.shake = false; // turn off shake  
-document.body.addEventListener('input', POWERMODE);
-</script>
-<script src="https://hexo.orzz.ml/hpp/api/getblogeractive"></script>
+<script type="text/javascript">document.onreadystatechange=function(){if(document.readyState=="complete"){var ele=document.createElement("script");ele.src="https://hexo.orzz.ml/hpp/api/getblogeractive";document.body.appendChild(ele)}}</script>
       <div class='float-panel mobile-only blur' style='display:none'>
   <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
     <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
