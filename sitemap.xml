@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://thun888.xyz/about/index.html</loc>
+    <loc>https://thun888.xyz/wiki/Artalk/develop.html</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/wiki/Artalk/QandA.html</loc>
     
     <lastmod>2021-07-21</lastmod>
     
@@ -16,7 +23,21 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/wiki/Artalk/develop.html</loc>
+    <loc>https://thun888.xyz/wiki/Artalk/install.html</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/wiki/Artalk/index.html</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/wiki/Artalk/about.html</loc>
     
     <lastmod>2021-07-21</lastmod>
     
@@ -30,23 +51,16 @@
   </url>
   
   <url>
+    <loc>https://thun888.xyz/about/index.html</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thun888.xyz/update/index.html</loc>
     
     <lastmod>2021-07-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/wiki/Artalk/index.html</loc>
-    
-    <lastmod>2021-07-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/wiki/Artalk/install.html</loc>
-    
-    <lastmod>2021-07-19</lastmod>
     
   </url>
   
@@ -82,20 +96,6 @@
     <loc>https://thun888.xyz/htalk/index.html</loc>
     
     <lastmod>2021-07-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/wiki/Artalk/QandA.html</loc>
-    
-    <lastmod>2021-07-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/wiki/Artalk/about.html</loc>
-    
-    <lastmod>2021-07-14</lastmod>
     
   </url>
   

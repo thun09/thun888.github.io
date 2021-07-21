@@ -150,7 +150,7 @@ document.getElementById("fileup").innerHTML='(￣︶￣)↗[<a href="https://ipf
     el: '#ArtalkComments', // 元素选择
     placeholder: '来评论啊ヾ(≧▽≦*)', // 占位符
     noComment: '快来成为第一个评论的人吧~', // 无评论时显示
-    pageKey: decode(location.pathname),
+    pageKey: location.pathname,
     serverUrl: 'https://artalk.thun888.xyz/',
     readMore: { // 阅读更多配置
       pageSize: 10, // 每次请求获取评论数
