@@ -89,27 +89,14 @@ var searchFunc = function (path, search_id, content_id) {
             var content = orig_data_content;
             if (first_occur >= 0) {
               // cut out 100 characters
-              var start = first_occur - 20;
-              var end = first_occur + 80;
-
-              if (start < 0) {
-                start = 0;
-              }
-
-              if (start == 0) {
-                end = 100;
-              }
-
-              if (end > content.length) {
-                end = content.length;
-              }
-
+              var start = 0;
+              var end = 50;
               var match_content = content.substr(start, end);
 
               // highlight all keywords
               keywords.forEach(function (keyword) {
                 var regS = new RegExp(keyword, "gi");
-                match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                match_content = match_content.replace(regS, "<span style='color: red' class=\"search-keyword\">" + keyword + "</span>");
               });
 
               str += "<p class=\"search-result\">" + match_content + "...</p>"
