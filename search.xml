@@ -288,6 +288,50 @@
       </tags>
   </entry>
   <entry>
+    <title>定时关机</title>
+    <url>/2020/%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA/</url>
+    <content><![CDATA[<h2 id="Shutdown"><a href="#Shutdown" class="headerlink" title="Shutdown"></a>Shutdown</h2><p>首先祭出主角</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Shutdown</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031094718.png"></p>
+<p>假设我们要在60秒后关机，只需输</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Shutdown -s -t 60</span><br></pre></td></tr></table></figure>
+
+<p>但这还不够，这样每次都要输一次指令，所以可以这样</p>
+<h2 id="食用"><a href="#食用" class="headerlink" title="食用"></a>食用</h2><ul>
+<li>再桌面右键—新建—文本文档</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201031095122093.png" alt="image-20201031095122093"></p>
+<p>名称随意</p>
+<ul>
+<li>打开这个新建的文本文档，复制以下内容</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &#x2F;P time&#x3D;多少秒后关机 </span><br><span class="line">shutdown -s -t %time%</span><br></pre></td></tr></table></figure>
+
+<p>保存为.bat/.cmd后缀名(因为有中文所以还要把编码改为ANSI)</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031095819.png"></p>
+<p>运行效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100207.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201031100248613.png" alt="image-20201031100248613"></p>
+<ul>
+<li>但这还不够，都做到这个地步了，平时倒计时都是以分钟为单位，还输秒怎么能行？/滑稽</li>
+</ul>
+<p>再改一下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &#x2F;P min&#x3D;多少分后关机 </span><br><span class="line">set &#x2F;a time &#x3D; %min%*60</span><br><span class="line">shutdown -s -t %time%</span><br></pre></td></tr></table></figure>
+
+<p>效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100717.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100735.png"></p>
+<p>ps：可以用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shutdown -a</span><br></pre></td></tr></table></figure>
+
+<p>来取消</p>
+]]></content>
+      <tags>
+        <tag>cmd命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>弹出C盘の快乐</title>
     <url>/2020/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/</url>
     <content><![CDATA[<p>想必大家都有想过：如果在电脑运行的时候弹出C盘，会发生什么呢？</p>
@@ -352,50 +396,6 @@
 ]]></content>
       <tags>
         <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>定时关机</title>
-    <url>/2020/%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA/</url>
-    <content><![CDATA[<h2 id="Shutdown"><a href="#Shutdown" class="headerlink" title="Shutdown"></a>Shutdown</h2><p>首先祭出主角</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Shutdown</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031094718.png"></p>
-<p>假设我们要在60秒后关机，只需输</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Shutdown -s -t 60</span><br></pre></td></tr></table></figure>
-
-<p>但这还不够，这样每次都要输一次指令，所以可以这样</p>
-<h2 id="食用"><a href="#食用" class="headerlink" title="食用"></a>食用</h2><ul>
-<li>再桌面右键—新建—文本文档</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201031095122093.png" alt="image-20201031095122093"></p>
-<p>名称随意</p>
-<ul>
-<li>打开这个新建的文本文档，复制以下内容</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &#x2F;P time&#x3D;多少秒后关机 </span><br><span class="line">shutdown -s -t %time%</span><br></pre></td></tr></table></figure>
-
-<p>保存为.bat/.cmd后缀名(因为有中文所以还要把编码改为ANSI)</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031095819.png"></p>
-<p>运行效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100207.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20201031100248613.png" alt="image-20201031100248613"></p>
-<ul>
-<li>但这还不够，都做到这个地步了，平时倒计时都是以分钟为单位，还输秒怎么能行？/滑稽</li>
-</ul>
-<p>再改一下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &#x2F;P min&#x3D;多少分后关机 </span><br><span class="line">set &#x2F;a time &#x3D; %min%*60</span><br><span class="line">shutdown -s -t %time%</span><br></pre></td></tr></table></figure>
-
-<p>效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100717.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20201031100735.png"></p>
-<p>ps：可以用</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shutdown -a</span><br></pre></td></tr></table></figure>
-
-<p>来取消</p>
-]]></content>
-      <tags>
-        <tag>cmd命令</tag>
       </tags>
   </entry>
   <entry>
