@@ -104,7 +104,7 @@ let eData = {
                   "酷表面开心": "https://i0.hdslb.com/bfs/album/e61e0abeac0201c9da1666e9d4dfd2b4ee8be51b.png",
                   "酷滑稽": "https://bu.dusays.com/2021/01/15/bc5d47be7dd61.png",
                   "酷流汗滑稽": "https://bu.dusays.com/2021/01/15/0677bec17b611.png",
-                  "酷受虐滑稽": "https://bu.dusays.com/2021/01/15/1c131772d1bb2.png",
+                  "酷受虐滑稽": "https://i0.hdslb.com/bfs/album/9622aa13f406aedf19ee4eb06c5e3086f5876c79.png",
                   "酷cos滑稽": "https://bu.dusays.com/2021/01/15/f49a7ee4bac5b.png",
                   "酷斗鸡眼滑稽": "https://bu.dusays.com/2021/01/15/82492e225e877.png",
                   "酷墨镜滑稽": "https://bu.dusays.com/2021/01/15/91338ab3e04b9.png",
@@ -150,7 +150,7 @@ document.getElementById("fileup").innerHTML='(￣︶￣)↗[<a href="https://ipf
     el: '#ArtalkComments', // 元素选择
     placeholder: '来评论啊ヾ(≧▽≦*)', // 占位符
     noComment: '快来成为第一个评论的人吧~', // 无评论时显示
-    pageKey: location.pathname,
+    pageKey: decode(location.pathname),
     serverUrl: 'https://artalk.thun888.xyz/',
     readMore: { // 阅读更多配置
       pageSize: 10, // 每次请求获取评论数
