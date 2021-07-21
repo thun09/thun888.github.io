@@ -23,6 +23,32 @@
       </tags>
   </entry>
   <entry>
+    <title>GitHub打不开的临时方法</title>
+    <url>/2021/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h4><p>先看看github在国内的访问情况</p>
+<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405140926865.png" alt="image-20210405140926865" style="zoom:80%;" />
+
+<p>挺好的，但我有时就死活打不开/加载不出来/慢（今年开始的，估计是墙加高了），过了几个小时又可以了，甚烦也</p>
+<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405141149140.png" alt="image-20210405141149140" style="zoom:67%;" />
+
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405141843803.png" alt="image-20210405141843803"></p>
+<p>而平时开飞机也不会一直开着，用镜像源替换也很麻烦，故有此计</p>
+<h4 id="How"><a href="#How" class="headerlink" title="How"></a>How</h4><p>因为我平时只是在Github查东西等不需要账号登录的操作，所以把发往github.com的请求全部重定向到hub.fastgit.org这个镜像源就ok了</p>
+<p>先安装<a href="https://share.thun888.xyz/%E8%BD%AF%E4%BB%B6/HeaderEditor.zip">Header Editor</a>下载解压安装到浏览器就好</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142037440.png" alt="image-20210405142037440"></p>
+<p>点到上面的‘导出于导入’，再在‘下载规则’一栏中1填</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;share.thun888.xyz&#x2F;%E8%BD%AF%E4%BB%B6&#x2F;github%E9%87%8D%E5%AE%9A%E5%90%91.json</span><br></pre></td></tr></table></figure>
+
+<p>点右边的下载箭头，再点下面的保存就好</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142528347.png" alt="image-20210405142528347"></p>
+<h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142707436.png" alt="image-20210405142707436"></p>
+<p>（当然，别用它来登账号）</p>
+]]></content>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo更新pages出错应急方法</title>
     <url>/2020/hexo%E6%9B%B4%E6%96%B0pages%E5%87%BA%E9%94%99%E5%BA%94%E6%80%A5%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<ul>
@@ -52,32 +78,6 @@
 ]]></content>
       <tags>
         <tag>cmd命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitHub打不开的临时方法</title>
-    <url>/2021/GitHub%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h4 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h4><p>先看看github在国内的访问情况</p>
-<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405140926865.png" alt="image-20210405140926865" style="zoom:80%;" />
-
-<p>挺好的，但我有时就死活打不开/加载不出来/慢（今年开始的，估计是墙加高了），过了几个小时又可以了，甚烦也</p>
-<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405141149140.png" alt="image-20210405141149140" style="zoom:67%;" />
-
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405141843803.png" alt="image-20210405141843803"></p>
-<p>而平时开飞机也不会一直开着，用镜像源替换也很麻烦，故有此计</p>
-<h4 id="How"><a href="#How" class="headerlink" title="How"></a>How</h4><p>因为我平时只是在Github查东西等不需要账号登录的操作，所以把发往github.com的请求全部重定向到hub.fastgit.org这个镜像源就ok了</p>
-<p>先安装<a href="https://share.thun888.xyz/%E8%BD%AF%E4%BB%B6/HeaderEditor.zip">Header Editor</a>下载解压安装到浏览器就好</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142037440.png" alt="image-20210405142037440"></p>
-<p>点到上面的‘导出于导入’，再在‘下载规则’一栏中1填</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;share.thun888.xyz&#x2F;%E8%BD%AF%E4%BB%B6&#x2F;github%E9%87%8D%E5%AE%9A%E5%90%91.json</span><br></pre></td></tr></table></figure>
-
-<p>点右边的下载箭头，再点下面的保存就好</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142528347.png" alt="image-20210405142528347"></p>
-<h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210405142707436.png" alt="image-20210405142707436"></p>
-<p>（当然，别用它来登账号）</p>
-]]></content>
-      <tags>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -271,6 +271,23 @@
       </tags>
   </entry>
   <entry>
+    <title>免费游玩《戴森球计划》</title>
+    <url>/2021/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/</url>
+    <content><![CDATA[<p>多说无益</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122529333.png" alt="image-20210404122529333"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122649005.png" alt="image-20210404122649005"></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://share.thun888.xyz/%E8%A7%86%E9%A2%91/%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92.mp4"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<p>下载地址：<br>teambition:<a href="http://camc.ga:5218/Dyson%20Sphere%20Program/">http://camc.ga:5218/Dyson%20Sphere%20Program/</a><br>oneindex:<a href="https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/">https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/</a></p>
+<p>白给了一个硬币<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/coolapk_emotion_1020.png" alt="coolapk_emotion_1020" style="zoom:25%;" /></p>
+]]></content>
+      <tags>
+        <tag>free</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>定时关机</title>
     <url>/2020/%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA/</url>
     <content><![CDATA[<h2 id="Shutdown"><a href="#Shutdown" class="headerlink" title="Shutdown"></a>Shutdown</h2><p>首先祭出主角</p>
@@ -312,23 +329,6 @@
 ]]></content>
       <tags>
         <tag>cmd命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免费游玩《戴森球计划》</title>
-    <url>/2021/%E5%85%8D%E8%B4%B9%E6%B8%B8%E7%8E%A9%E3%80%8A%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92%E3%80%8B/</url>
-    <content><![CDATA[<p>多说无益</p>
-<span id="more"></span>
-
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122529333.png" alt="image-20210404122529333"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210404122649005.png" alt="image-20210404122649005"></p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://share.thun888.xyz/%E8%A7%86%E9%A2%91/%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92.mp4"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"http://dplayer.daoapp.io","token":"tokendemo"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
-
-<p>下载地址：<br>teambition:<a href="http://camc.ga:5218/Dyson%20Sphere%20Program/">http://camc.ga:5218/Dyson%20Sphere%20Program/</a><br>oneindex:<a href="https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/">https://share.thun888.xyz/GAMES/Dyson%20Sphere%20Program/</a></p>
-<p>白给了一个硬币<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/coolapk_emotion_1020.png" alt="coolapk_emotion_1020" style="zoom:25%;" /></p>
-]]></content>
-      <tags>
-        <tag>free</tag>
       </tags>
   </entry>
   <entry>
@@ -514,41 +514,6 @@
       </tags>
   </entry>
   <entry>
-    <title>高质量地从ico转为svg</title>
-    <url>/2021/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/</url>
-    <content><![CDATA[<h5 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h5><p>先上个效果图（上原下后）</p>
-<p><img src="https://thun888.xyz/favicon.ico" alt="favicon.ico (128×128) (thun888.xyz)"></p>
-<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/favicon_1.svg" alt="favicon_1" style="zoom:300%;" />
-
-<h5 id="How"><a href="#How" class="headerlink" title="How"></a>How</h5><p>先下载&amp;安装<a href="https://share.thun888.xyz/%E8%BD%AF%E4%BB%B6/CorelDRAW_X4_SP2_%E7%B2%BE%E7%AE%80%E5%A2%9E%E5%BC%BA%E7%89%88.exe">CorelDRAW</a></p>
-<p>把你可爱的ico拉到浏览器里放到最大</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210504155034662.png" alt="image-20210504155034662"></p>
-<p>贴着边缘截张图</p>
-<div class="tag-plugin note" ><div class="title"><strong>like this</strong></div><div class="body"><div class="tag-plugin image"><div class="image-bg"><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155240.png"/></div></div></div></div>
-
-<p>选择 文件—导入—（刚刚截的图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155534.png"></p>
-<p>放置在画纸后</p>
-<p>右键—轮廓描慕—高质量图像（也可以选其他的）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155749.png"></p>
-<p>在这里你可以改变三个参数实现不同的效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/dg4df56hde4568.png"></p>
-<p>点击确定后就能得到2个图像（原来的位图和生成的矢量图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504160151.png"></p>
-<p>把原图删掉后将画布调整为生成图大小（例如我这就是210*210）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/da21desf4s568gre46g.png"></p>
-<p>选择 文件—导出（保存为.svg)</p>
-<p><img src="C:\Users\22383\AppData\Roaming\Typora\typora-user-images\image-20210504160641441.png" alt="image-20210504160641441"></p>
-<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504161231.png" style="zoom:80%;" />
-
-<h5 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h5><p>要真想更好一点可以用这个为底，重绘一遍</p>
-]]></content>
-      <tags>
-        <tag>网站</tag>
-        <tag>转换</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记一次简单的水卡破解</title>
     <url>/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</url>
     <content><![CDATA[<p>大概一个月前吧，学校新发了2份文件，一份关于空调的，一份关于水的。之前是免费的，选择突然收费了，说着节水节电（提倡节水节电没错，但之前提倡节水节电时学校没鸟过，现在股东撤资就来搞这种事情，恶臭），实际上只是想省钱<img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_81_naikezui.png" style="zoom:25%;" /></p>
@@ -620,6 +585,41 @@
 ]]></content>
       <tags>
         <tag>free</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高质量地从ico转为svg</title>
+    <url>/2021/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/</url>
+    <content><![CDATA[<h5 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h5><p>先上个效果图（上原下后）</p>
+<p><img src="https://thun888.xyz/favicon.ico" alt="favicon.ico (128×128) (thun888.xyz)"></p>
+<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/favicon_1.svg" alt="favicon_1" style="zoom:300%;" />
+
+<h5 id="How"><a href="#How" class="headerlink" title="How"></a>How</h5><p>先下载&amp;安装<a href="https://share.thun888.xyz/%E8%BD%AF%E4%BB%B6/CorelDRAW_X4_SP2_%E7%B2%BE%E7%AE%80%E5%A2%9E%E5%BC%BA%E7%89%88.exe">CorelDRAW</a></p>
+<p>把你可爱的ico拉到浏览器里放到最大</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210504155034662.png" alt="image-20210504155034662"></p>
+<p>贴着边缘截张图</p>
+<div class="tag-plugin note" ><div class="title"><strong>like this</strong></div><div class="body"><div class="tag-plugin image"><div class="image-bg"><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155240.png"/></div></div></div></div>
+
+<p>选择 文件—导入—（刚刚截的图）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155534.png"></p>
+<p>放置在画纸后</p>
+<p>右键—轮廓描慕—高质量图像（也可以选其他的）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504155749.png"></p>
+<p>在这里你可以改变三个参数实现不同的效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/dg4df56hde4568.png"></p>
+<p>点击确定后就能得到2个图像（原来的位图和生成的矢量图）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504160151.png"></p>
+<p>把原图删掉后将画布调整为生成图大小（例如我这就是210*210）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/da21desf4s568gre46g.png"></p>
+<p>选择 文件—导出（保存为.svg)</p>
+<p><img src="C:\Users\22383\AppData\Roaming\Typora\typora-user-images\image-20210504160641441.png" alt="image-20210504160641441"></p>
+<img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504161231.png" style="zoom:80%;" />
+
+<h5 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h5><p>要真想更好一点可以用这个为底，重绘一遍</p>
+]]></content>
+      <tags>
+        <tag>网站</tag>
+        <tag>转换</tag>
       </tags>
   </entry>
 </search>
