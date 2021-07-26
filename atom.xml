@@ -6,7 +6,7 @@
   <link href="https://thun888.xyz/atom.xml" rel="self"/>
   
   <link href="https://thun888.xyz/"/>
-  <updated>2021-07-18T13:46:44.120Z</updated>
+  <updated>2021-07-26T10:49:34.105Z</updated>
   <id>https://thun888.xyz/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决VSCode安装Go扩展报错</title>
+    <link href="https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3VSCode%E5%AE%89%E8%A3%85Go%E6%89%A9%E5%B1%95%E6%8A%A5%E9%94%99/"/>
+    <id>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3VSCode%E5%AE%89%E8%A3%85Go%E6%89%A9%E5%B1%95%E6%8A%A5%E9%94%99/</id>
+    <published>2021-07-26T10:37:56.000Z</published>
+    <updated>2021-07-26T10:49:34.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>不多哔哔，直入主题</p><p>先转到新建环境变量这里（图示为win11</p><p><img src="https://asstes.thun888.xyz/file/pic-bed/2021/07/f0201336e45269ee42dd51c7372223a1.png" alt="image-20210726184507552"></p><p>新建2个（如图）</p><p><img src="https://i0.hdslb.com/bfs/album/705b3a231b995cd3ac7ed8dd103075fdb024fa43.png@.webp" alt="image-20210726184350014"></p><table><thead><tr><th>变量名</th><th>变量值</th></tr></thead><tbody><tr><td>GOPROXY</td><td><a href="https://goproxy.io/">https://goproxy.io</a></td></tr><tr><td>GO111MODULE</td><td>on</td></tr></tbody></table><p>点确定后<strong>重启</strong>再进VSCode里选择<code>install all</code>安装就好</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;不多哔哔，直入主题&lt;/p&gt;
+&lt;p&gt;先转到新建环境变量这里（图示为win11&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://asstes.thun888.xyz/file/pic-bed/2021/07/f0201336e45269ee42dd51c7372223a1.p</summary>
+      
+    
+    
+    
+    
+    <category term="Go" scheme="https://thun888.xyz/tags/Go/"/>
+    
+  </entry>
   
   <entry>
     <title>为Stellar主题添加HPP的&quot;说说&quot;功能</title>
@@ -50,9 +74,9 @@
     
     
     
-    <category term="web" scheme="https://thun888.xyz/tags/web/"/>
-    
     <category term="oneindex" scheme="https://thun888.xyz/tags/oneindex/"/>
+    
+    <category term="web" scheme="https://thun888.xyz/tags/web/"/>
     
   </entry>
   
