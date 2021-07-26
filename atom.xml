@@ -50,9 +50,9 @@
     
     
     
-    <category term="oneindex" scheme="https://thun888.xyz/tags/oneindex/"/>
-    
     <category term="web" scheme="https://thun888.xyz/tags/web/"/>
+    
+    <category term="oneindex" scheme="https://thun888.xyz/tags/oneindex/"/>
     
   </entry>
   
@@ -61,7 +61,7 @@
     <link href="https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/"/>
     <id>https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</id>
     <published>2021-05-04T08:28:00.000Z</published>
-    <updated>2021-07-16T02:45:59.410Z</updated>
+    <updated>2021-07-25T04:10:57.878Z</updated>
     
     <content type="html"><![CDATA[<p>大概一个月前吧，学校新发了2份文件，一份关于空调的，一份关于水的。之前是免费的，选择突然收费了，说着节水节电（提倡节水节电没错，但之前提倡节水节电时学校没鸟过，现在股东撤资就来搞这种事情，恶臭），实际上只是想省钱<img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_81_naikezui.png" style="zoom:25%;" /></p><h5 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h5><ol><li>pn532</li><li>一台win7的电脑（在我win10上识别不出来，win7/10都有蓝屏风险）</li><li><a href="https://share.thun888.xyz/%E8%BD%AF%E4%BB%B6/pn532.zip">软件包</a></li></ol><h5 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h5><p>去学校刷了2次卡，用“上位机”扫了3次得到这3个东西</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504170454.png"></p><p>对比可知水卡余额和这两行数据有关</p><div class="tag-plugin swiper-container" id="swiper-api" width="max"><div class="swiper-wrapper"><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504170904.png"></div><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504170927.png"></div><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504171001.png"></div></div><div class="swiper-pagination"></div><div class="swiper-button-prev blur"></div><div class="swiper-button-next blur"></div></div><p>第一张有60.96，第二张有60.46，第三张有45.66</p><p>以第一张为例，用计算器算算</p><table><thead><tr><th>十六进制值</th><th>十进制值</th></tr></thead><tbody><tr><td>3C</td><td>60</td></tr><tr><td>60</td><td>96</td></tr></tbody></table><p>显而易见，这两位就是控制余额的（前面00用来存&gt;255时的数据）</p><p>但是，最后一位怎么看都对不上，那肯定就是校检位</p><h5 id="校检"><a href="#校检" class="headerlink" title="校检"></a>校检</h5><p>一般卡都会用<strong>按位取反、CRC冗余校验、BCC异或运算及LRC和校验计算方法</strong></p><table><thead><tr><th align="center">方法</th><th align="center">网址</th></tr></thead><tbody><tr><td align="center">按位取反</td><td align="center">建议用笔，纸外加计算器</td></tr><tr><td align="center">CRC冗余校验</td><td align="center"><a href="http://www.ip33.com/crc.html">CRC（循环冗余校验）在线计算_ip33.com</a></td></tr><tr><td align="center">BCC异或运算</td><td align="center"><a href="http://www.ip33.com/bcc.html">BCC校验(异或校验)在线计算_ip33.com</a></td></tr><tr><td align="center">LRC和校验计算</td><td align="center"><a href="http://www.ip33.com/lrc.html">LRC校验(纵向冗余校验)在线计算_ip33.com</a></td></tr><tr><td align="center">校验计算</td><td align="center">建议用笔，纸外加计算器</td></tr></tbody></table><p>这里一个一个试就可以算出来它是BCC校检</p><p>金额改成200，对应写C8 00，校检码为C8</p><p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210504175001.png"></p><p>保存，刷入，嘿，快乐~</p><h5 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h5><p>改饭卡/买东西的就不要想了，这种的本地只有个UID,（当然你改成别人我也不能说什么👀）</p><p>而我们学校水卡本来就是免费的（冲买东西的钱60送水卡60），所以…<img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_65_coshuaji.png" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_65_coshuaji.png" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_65_coshuaji.png" style="zoom:25%;" /></p>]]></content>
     
@@ -104,7 +104,7 @@
     <link href="https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/"/>
     <id>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</id>
     <published>2021-04-30T15:02:58.000Z</published>
-    <updated>2021-07-09T12:09:07.683Z</updated>
+    <updated>2021-07-25T04:10:36.778Z</updated>
     
     <content type="html"><![CDATA[<p>之前，用着被抛弃的mi6，升级了12后并无异样，但用第三方包升到12.5后，欸，用不了了</p><span id="more"></span><div class="tag-plugin swiper-container" id="swiper-api" width="25"><div class="swiper-wrapper"><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/IMG_20210424_212057.jpg"></div><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/Screenshot_2021-04-24-21-19-58-835_com.android.ve.jpg"></div><div class="swiper-slide"><img no-lazy src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/Screenshot_2021-04-24-21-20-21-301_com.android.ve.jpg"></div></div><div class="swiper-pagination"></div><div class="swiper-button-prev blur"></div><div class="swiper-button-next blur"></div></div><p>（如图）</p><p>显然，是新版的“照明弹”引起的</p><div class="tag-plugin note" ><div class="title"><strong>搜索一下可以看到有好几个</strong></div><div class="body"><div class="tag-plugin image"><div class="image-bg"><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/dsfdsvdzsggdf.jpg"/></div></div></div></div><p>把里面每一个权限选择了“空白通行证”的改为“始终允许”</p><img src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/Screenshot_2021-04-30-23-12-52-256_com.miui.secur.jpg" style="zoom: 80%;" />]]></content>
     

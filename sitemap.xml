@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</loc>
+    
+    <lastmod>2021-07-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</loc>
+    
+    <lastmod>2021-07-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thun888.xyz/about/index.html</loc>
     
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     
   </url>
   
@@ -73,13 +87,6 @@
   
   <url>
     <loc>https://thun888.xyz/2021/%E9%AB%98%E8%B4%A8%E9%87%8F%E5%9C%B0%E4%BB%8Eico%E8%BD%AC%E4%B8%BAsvg/</loc>
-    
-    <lastmod>2021-07-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/2021/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84%E6%B0%B4%E5%8D%A1%E7%A0%B4%E8%A7%A3/</loc>
     
     <lastmod>2021-07-16</lastmod>
     
@@ -170,13 +177,6 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</loc>
-    
-    <lastmod>2021-07-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://thun888.xyz/2020/%E5%BC%B9%E5%87%BAC%E7%9B%98%E3%81%AE%E5%BF%AB%E4%B9%90/</loc>
     
     <lastmod>2021-07-09</lastmod>
@@ -193,7 +193,7 @@
 
   <url>
     <loc>https://thun888.xyz/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,91 +201,91 @@
   
   <url>
     <loc>https://thun888.xyz/tags/Minecraft/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/github/</loc>
-    <lastmod>2021-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/cmd%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/%E7%94%9C%E7%B3%96/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/cmd%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/blog/</loc>
-    <lastmod>2021-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/oneindex/</loc>
-    <lastmod>2021-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/web/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/free/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/web/</loc>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/ssl%E8%AE%A4%E8%AF%81/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/linux/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/MIUI/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://thun888.xyz/tags/%E8%BD%AC%E6%8D%A2/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/oneindex/</loc>
+    <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
