@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thun888.xyz/about/index.html</loc>
+    
+    <lastmod>2021-07-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3VSCode%E5%AE%89%E8%A3%85Go%E6%89%A9%E5%B1%95%E6%8A%A5%E9%94%99/</loc>
     
     <lastmod>2021-07-26</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://thun888.xyz/2021/%E8%A7%A3%E5%86%B3%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%8D%87%E7%BA%A7MIUI12-5%E5%90%8E%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E8%B0%B7%E6%AD%8C%E5%95%86%E5%BA%97/</loc>
     
     <lastmod>2021-07-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/about/index.html</loc>
-    
-    <lastmod>2021-07-24</lastmod>
     
   </url>
   
@@ -207,14 +207,14 @@
 
   
   <url>
-    <loc>https://thun888.xyz/tags/Minecraft/</loc>
+    <loc>https://thun888.xyz/tags/github/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/github/</loc>
+    <loc>https://thun888.xyz/tags/Minecraft/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,7 +242,7 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/oneindex/</loc>
+    <loc>https://thun888.xyz/tags/free/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -256,20 +256,6 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/free/</loc>
-    <lastmod>2021-07-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://thun888.xyz/tags/ssl%E8%AE%A4%E8%AF%81/</loc>
-    <lastmod>2021-07-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://thun888.xyz/tags/linux/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
@@ -277,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://thun888.xyz/tags/Go/</loc>
+    <loc>https://thun888.xyz/tags/ssl%E8%AE%A4%E8%AF%81/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -299,6 +285,20 @@
   
   <url>
     <loc>https://thun888.xyz/tags/%E8%BD%AC%E6%8D%A2/</loc>
+    <lastmod>2021-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/oneindex/</loc>
+    <lastmod>2021-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://thun888.xyz/tags/Go/</loc>
     <lastmod>2021-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
