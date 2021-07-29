@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101095911579.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101100249006.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210101100433.gif">
+<meta property="og:image" content="https://i0.hdslb.com/bfs/album/b393371cf417e3953d6271c955e1d8be21e3d6fe.gif">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101101126292.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101101410967.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210101101526.gif">
@@ -38,7 +38,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101111500122.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101111805262.png">
 <meta property="article:published_time" content="2021-01-01T01:39:47.000Z">
-<meta property="article:modified_time" content="2021-07-09T12:07:54.592Z">
+<meta property="article:modified_time" content="2021-07-29T10:58:43.652Z">
 <meta property="article:author" content="thun888">
 <meta property="article:tag" content="web">
 <meta name="twitter:card" content="summary">
@@ -136,13 +136,13 @@
 <p>从github把源码下载后上传然后解压</p>
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101100249006.png" alt="image-20210101100249006"></p>
 <p>进到/TeambitionShare-master里把源码拉出来</p>
-<p>gif:<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/20210101100433.gif" alt="20210101100433"></p>
+<p>gif:<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://i0.hdslb.com/bfs/album/b393371cf417e3953d6271c955e1d8be21e3d6fe.gif" alt="20210101100433"></p>
 <p>然后配置伪静态（不设置会404）</p>
 <p>Nginx</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#根目录伪静态</span><br><span class="line">location &#x2F; &#123;</span><br><span class="line">  if (!-e $request_filename)&#123;</span><br><span class="line">    rewrite ^(.*)$ &#x2F;index.php&#x2F;?s&#x3D;$1;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">#二级目录伪静态，自行修改pan为你的二级目录名字</span><br><span class="line">location &#x2F;pan &#123;</span><br><span class="line">  if (!-e $request_filename)&#123;</span><br><span class="line">    rewrite ^&#x2F;pan&#x2F;(.*)$ &#x2F;pan&#x2F;index.php&#x2F;?s&#x3D;$1;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>Apache</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">  Options +FollowSymlinks -Multiviews</span><br><span class="line">  RewriteEngine On</span><br><span class="line">  RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">  RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">  RewriteRule ^(.*)$ index.php&#x2F;?s&#x3D;$1 [QSA,PT,L]</span><br><span class="line">&lt;&#x2F;IfModule&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;IfModule</span> <span class="string">mod_rewrite.c&gt;</span></span><br><span class="line">  <span class="string">Options</span> <span class="string">+FollowSymlinks</span> <span class="string">-Multiviews</span></span><br><span class="line">  <span class="string">RewriteEngine</span> <span class="string">On</span></span><br><span class="line">  <span class="string">RewriteCond</span> <span class="string">%&#123;REQUEST_FILENAME&#125;</span> <span class="string">!-d</span></span><br><span class="line">  <span class="string">RewriteCond</span> <span class="string">%&#123;REQUEST_FILENAME&#125;</span> <span class="string">!-f</span></span><br><span class="line">  <span class="string">RewriteRule</span> <span class="string">^(.*)$</span> <span class="string">index.php/?s=$1</span> [<span class="string">QSA</span>,<span class="string">PT</span>,<span class="string">L</span>]</span><br><span class="line"><span class="string">&lt;/IfModule&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/image-20210101101126292.png" alt="image-20210101101126292"></p>
 <p>在<a target="_blank" rel="noopener" href="http://www.teambition.com上登录账号/">www.teambition.com上登录账号</a></p>
@@ -173,6 +173,7 @@ Teambition账号
 从github把源码下载后上传然后解压
 
 进到/TeambitionShar..."><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/80c07e4dbb303.svg"/></a><a class="social share-item email" href="mailto:?subject=搭建Teambition网盘的目录索引 - Thun888&amp;body=https://thun888.xyz/2021/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/a1b00e20f425d.svg"/></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;复制成功&quot;)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/8411ed322ced6.svg"/></a></div><div class="qrcode" id="qrcode-wechat" style="visibility:hidden;height:0"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://api.cyfan.top/qrcode?code=https://thun888.xyz/2021/%E6%90%AD%E5%BB%BATeambition%E7%BD%91%E7%9B%98%E7%9A%84%E7%9B%AE%E5%BD%95%E7%B4%A2%E5%BC%95/index.html"/></div></div></section></div>
+
 <HR width="95%" color=#987cb9 SIZE=3>
   <a id="artalkup" href="javascript:load();" style="text-align: center;display:block;background-color:var(--link-hover-bg-color);font-size:20px">(o゜▽゜)o点击加载评论</a><span id="fileup" style="text-align: center;display:block;"></span>
   <HR width="95%" color=#987cb9 SIZE=3>
@@ -180,7 +181,7 @@ Teambition账号
   <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
   <script type="text/javascript">
   $(document).pjax('a', '#ArtalkComments', {
-    fragment: '.main' // △ 提取 AJAX 响应内容中指定的元素内容片段；参考：http://bsify.admui.com/jquery-pjax/
+    fragment: '.main' 
   })
   </script>
   <!-- ... -->
@@ -200,7 +201,7 @@ function load(){var script=document.createElement("script");script.type="text/ja
       <div class='title cap theme'>您可能感兴趣的文章</div>
     </section>
     <section class='body'>
-    <div class="related-posts"><a class="item" href="/2021/优化Oneindex的nexmoe主题的加载速度/" title="优化Oneindex的nexmoe主题的加载速度"><div class="img"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_42_diaoxie.png" /></div><span class="title">优化Oneindex的nexmoe主题的加载速度</span><span class="excerpt">在一些带宽小的机子上部署Oneindex又用nexmoe主题，在学校开来给同学下电影开了十几秒愣是没加载出来</span></a><a class="item" href="/2020/Free Minecraft Dungeons/" title="Free Minecraft Dungeons"><div class="img"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg" /></div><span class="title">Free Minecraft Dungeons</span></a></div></section></div>
+    <div class="related-posts"><a class="item" href="/2021/优化Oneindex的nexmoe主题的加载速度/" title="优化Oneindex的nexmoe主题的加载速度"><div class="img"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/jian@master/coolapk_emotion_42_diaoxie.png" /></div><span class="title">优化Oneindex的nexmoe主题的加载速度</span><span class="excerpt">在一些带宽小的机子上部署Oneindex又用nexmoe主题，在学校开来给同学下电影开了十几秒愣是没加载出来</span></a><a class="item" href="/2020/弹出C盘の快乐/" title="弹出C盘の快乐"><div class="img"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/thun888/tuku@master/img/asd.png" /></div><span class="title">弹出C盘の快乐</span></a></div></section></div>
 
 
 
@@ -208,7 +209,7 @@ function load(){var script=document.createElement("script");script.type="text/ja
 
       
 <center><span class="page-footer fs12" id="timeDate">载入天数...</span><span class="page-footer fs12">&</span><span class="page-footer fs12" id="times">载入时分秒...</span></center>
-<footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">博客</span><a href="/update">更新历程</a><a href="/htalk">随记</a><a target="_blank" rel="noopener" href="https://hexo.orzz.ml/hpp/admin/dash/home">后台</a></div></div><div class="text"><p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+<footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">博客</span><a href="/update">更新历程</a><a href="/htalk">随记</a><a target="_blank" rel="noopener" href="https://hexo.orzz.ml/hpp/admin/dash/home">后台</a><a href="/archives">归档</a></div><div class="sitemap-group"><span class="fs14">项目</span><a href="/wiki/Artalk">Artalk-Doc</a></div><div class="sitemap-group"><span class="fs14">社交</span><a href="/friends">友链</a><a href="/say">留言板</a></div></div><div class="text"><p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 <p>本站总访问量：<span id="busuanzi_value_site_pv">∞</span>次,<span id="bloggeractivetime">博主在∞分钟前偷偷瞄了一眼博客</span></p>
 <p>本站由 <a href="https://thun888.xyz/">@thun888</a> 使用HEXO创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.2.1">Stellar</a> 主题。</p>
 </div></footer>
@@ -362,4 +363,5 @@ function load(){var script=document.createElement("script");script.type="text/ja
 
 
   </div>
-<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
+</body>
+</html>
