@@ -1,1 +1,271 @@
-"use strict";var precacheConfig=[["/2020/Free Minecraft Dungeons/index.html","5b5ba6e06f0bf1a4a2ce6d97b93390a9"],["/2020/hexo更新pages出错应急方法/index.html","567230b5d07f34dca8994851f012160d"],["/2020/定时关机/index.html","0a5268226315776803fd760fc5d546d4"],["/2020/弹出C盘の快乐/index.html","3b3580801480c2274879ee4e09bb1060"],["/2020/杂物/index.html","2028f9dae332a51feb1dee15ae075647"],["/2020/来在MC里玩电脑/index.html","bc200166229e622d59997e1211e7411e"],["/2020/现已通过myssl认证/index.html","4a19ebcfb03a7d65dcae5d66d02e5d6b"],["/2020/用batocera搭建属于你的游戏天地/index.html","a172d8c0bae0b99878beb51f4bdf16ed"],["/2021/GitHub打不开的临时方法/index.html","9cef19fd387437c8ebc51313ea1137b3"],["/2021/vm虚拟机安装甜糖及配置教程/index.html","14c27ebe5bc543fe54af2ddc1f476546"],["/2021/为Stellar主题添加HPP说说功能/index.html","fe49a15e1f473e65e6935c1d14411df7"],["/2021/优化Oneindex的nexmoe主题的加载速度/index.html","534d018f8cd6bc8d487f1f4710b9f80d"],["/2021/免费游玩《戴森球计划》/index.html","ef00157b3a795447188a6d260314db00"],["/2021/搭建Teambition网盘的目录索引/index.html","b9274441419fcb926e7a87f99f4cd5a2"],["/2021/解决Clouddlare-Wrangler无法获取授权/index.html","aa2b7d6b0598460a7f39cb23a28bd5bc"],["/2021/解决VSCode安装Go扩展报错/index.html","240ca5fbe2f702d3b20411d3721c60c2"],["/2021/解决小米手机升级MIUI12-5后无法进入谷歌商店/index.html","f9bca4eb0b5c37d62209e5f7fabfe6ae"],["/2021/记一次简单的水卡破解/index.html","e4f2811e1a3cf83c1ade442838ff3d72"],["/2021/高质量地从ico转为svg/index.html","94656bb571f73175d1a22b06688382f6"],["/404.html","dfef1b15031fa5981a3f5cd6984a6894"],["/about/index.html","166e5412b02255c42584790962e16cf0"],["/archives/2020/01/index.html","cb0fcde4ac7edfc9351a9434d2e34475"],["/archives/2020/08/index.html","a779eda3c15e6d310bfce340eb2eccfb"],["/archives/2020/10/index.html","9ab6d6dae7dcfb65bd96eba29da18c57"],["/archives/2020/11/index.html","37e25962af937d750ee761a1b09a0d00"],["/archives/2020/12/index.html","23b3df9470ce8a275c90b03d90d82753"],["/archives/2020/index.html","78060f68cd8b933360810cfc84cc5532"],["/archives/2021/01/index.html","deca7f4d984edffa6c808a42f696b516"],["/archives/2021/02/index.html","9e7d4b1d9a910eade2f256faada05df8"],["/archives/2021/04/index.html","0d4b6e156e95e9cf19bdfd22e95a86b0"],["/archives/2021/05/index.html","2ea45dff056292cce032bb42c3d8f756"],["/archives/2021/06/index.html","621cd3538268e7e0359d1acab0add81d"],["/archives/2021/07/index.html","d366df7943db2b5e01208d4e3f1ca900"],["/archives/2021/index.html","ab686eadb2cea1b0fdf20f69152a8758"],["/archives/2021/page/2/index.html","3bc729a0541094ba61a716ac4d783b06"],["/archives/index.html","98af885b30317fc73c388f3f0ba65573"],["/archives/page/2/index.html","78d4f062f755e2ebaa04729a66c46db1"],["/assets/js/DPlayer.min.js","472552604f19815d0a634bd3d953171e"],["/css/main.css","800de3d63321ba49ee853bc15c4a0bd3"],["/friends/index.html","3141b79808da97a2ac7ea8e928c767ee"],["/htalk/index.html","799f6f7e206256515ddf5cdb02fc18cf"],["/img/avatar.png","2d9aa61e592b26e2745f3c161c48c397"],["/img/cookapk.png","f52ac3bb41a4bb050c683590efe0d804"],["/img/default.png","cbecf637ecf1059c2ff594cc419a04f9"],["/img/default1.png","2d9aa61e592b26e2745f3c161c48c397"],["/img/favicon.png","5603316bb5bc54a9d5cab14fddd4c510"],["/img/links/c4at.png","78068e91693b990c5cc8686acd146424"],["/img/loading.gif","15657539044e11a19a1c6c7e3073d1b3"],["/img/mcbed.png","d319cb6e47fc0b0758f3b0d53176eb95"],["/img/music/109951165099284336.jpg","6a672f7c423827e6203fc69ffcbea005"],["/img/music/109951165424074168.jpg","e85b4ee8bf900fb6f04691fbcaeaf68d"],["/img/music/3382097775018074.jpg","d476a079e1ca75057445596d2eb9befb"],["/img/music/zafewaeswfaewgf.png","8c6b072562798490a282cfe6518a73f9"],["/img/police_beian.png","b769e8dfde5660239317ed60758dba13"],["/index.html","e0aa85007eb6b1147be0c40165b63716"],["/js/artalkconfig.js","02f75a69637569d26f818a7292f529fb"],["/js/artalkconfig1.js","7503a7c99db1a8d9f7a5ecdbc25b754d"],["/js/main.js","aa2435c12a8db3f299fa0040b4c2e851"],["/js/plugins/friends.js","4cc40c80b253a51a4c9f4e529a0c3bd5"],["/js/plugins/sites.js","c4dadeae73ba8b89d8a22257c323188e"],["/js/search.js","b2cb417dada66d99255ed5b9ee9de042"],["/morecss/heimu.css","893878b6ac5b5d900687a85244e409a4"],["/morecss/main.css","9f54b91517adaca5a282b5b1f832dd8a"],["/morecss/search.css","ef05d20824c365c1aa71f318522e2b7b"],["/page/2/index.html","0a51f5169e56b16a3a3da5d222f1a189"],["/say/index.html","44586bbd095c51ee407f10bc59c65c9a"],["/sw-register.js","7adb198e4bb42be5c0f532113c78dd3f"],["/tags/Clouddlare/index.html","0258d15d868942c01d898a1d7b8773d0"],["/tags/Go/index.html","e1a7ddf803161ac8dbdb3be60aee1bba"],["/tags/MIUI/index.html","1b0a4d2cc8991b9fee6b60063909bfd0"],["/tags/Minecraft/index.html","af601190b12be8508ec6ee3a0c06e543"],["/tags/blog/index.html","3c2bed5acf7a6145fdf7aab31273e0f2"],["/tags/cmd命令/index.html","c2a8aec8e3408cffce48f7de98a391c1"],["/tags/free/index.html","0718bc00d400a287695ba8dc425a10fe"],["/tags/github/index.html","2dcd6094512ac7c40fd313331b2c92b7"],["/tags/index.html","f7adcb222e6c55ebf7efe1c7562fccd7"],["/tags/linux/index.html","1d1b9f0b68d50805db36009da1052e0e"],["/tags/oneindex/index.html","2a5455603d8da6700bff1c48b2ace453"],["/tags/ssl认证/index.html","159f0e6ff35b4efefa98a862a9cf884e"],["/tags/web/index.html","bf8bb5d0c36bad5337bff89247e434ae"],["/tags/甜糖/index.html","456b71d12680e0f63f8c2b696de8d6e1"],["/tags/网站/index.html","4d1e0e0038c79f6db72aa0f38e520628"],["/tags/转换/index.html","b6e83336090c5711be68125af852fe79"],["/tools/ghcdn/css.css","86ac5a43f4f56a743f71bf8aae905965"],["/tools/ghcdn/index.css","20c89d2537d1a9fa5bc9390e1be84501"],["/tools/ghcdn/index.html","a04781ed135e85f537f159ecfd361fb7"],["/tools/ghcdn/scrollspy.min.js","4544c47370f4b13f31311969b80d416a"],["/tools/ghcdn/skrollr.min.js","b1f41260da79657330190e2d37cfb4cb"],["/update/index.html","dd6a06ee2a46799654a5b4f9eeb944b8"],["/wiki/Artalk/QandA.html","3caf510ba27ae297c2c15db22cfad185"],["/wiki/Artalk/about.html","885dd791209186b532eeeb4458bd071a"],["/wiki/Artalk/develop.html","7bdb172a419546e2e2919d0bade94a7b"],["/wiki/Artalk/index.html","e9bd632f87cfc0bc9f284e014eeea9bc"],["/wiki/Artalk/install.html","800c7866eb57407a0e27b8522fc33536"],["/wiki/Artalk/more-url.html","37e0efc7f26f80eb72f8f65b8845280e"],["/wiki/Artalk/use.html","c6c747c7ad0dbbefc9b4578569554adc"],["/wiki/categories/文档/index.html","efde50eefdb510e9f8de061def5b7f89"],["/wiki/index.html","e169cf62a34a58d85b365cb776933a65"]],cacheName="sw-precache-v3--"+(self.registration?self.registration.scope:""),firstRegister=1,ignoreUrlParametersMatching=[/^utm_/],addDirectoryIndex=function(e,a){e=new URL(e);return"/"===e.pathname.slice(-1)&&(e.pathname+=a),e.toString()},cleanResponse=function(a){return a.redirected?("body"in a?Promise.resolve(a.body):a.blob()).then(function(e){return new Response(e,{headers:a.headers,status:a.status,statusText:a.statusText})}):Promise.resolve(a)},createCacheKey=function(e,a,c,t){e=new URL(e);return t&&e.pathname.match(t)||(e.search+=(e.search?"&":"")+encodeURIComponent(a)+"="+encodeURIComponent(c)),e.toString()},isPathWhitelisted=function(e,a){if(0===e.length)return!0;var c=new URL(a).pathname;return e.some(function(e){return c.match(e)})},stripIgnoredUrlParameters=function(e,c){e=new URL(e);return e.hash="",e.search=e.search.slice(1).split("&").map(function(e){return e.split("=")}).filter(function(a){return c.every(function(e){return!e.test(a[0])})}).map(function(e){return e.join("=")}).join("&"),e.toString()},addDirectoryIndex=function(e,a){e=new URL(e);return"/"===e.pathname.slice(-1)&&(e.pathname+=a),e.toString()},hashParamName="_sw-precache",urlsToCacheKeys=new Map(precacheConfig.map(function(e){var a=e[0],e=e[1],a=new URL(a,self.location),e=createCacheKey(a,hashParamName,e,!1);return[a.toString(),e]}));function setOfCachedUrls(e){return e.keys().then(function(e){return e&&0<e.length&&(firstRegister=0),e.map(function(e){return e.url})}).then(function(e){return new Set(e)})}self.addEventListener("install",function(e){e.waitUntil(caches.open(cacheName).then(function(t){return setOfCachedUrls(t).then(function(c){return Promise.all(Array.from(urlsToCacheKeys.values()).map(function(a){if(!c.has(a)){var e=new Request(a,{credentials:"same-origin"});return fetch(e).then(function(e){if(!e.ok)throw new Error("Request for "+a+" returned a response with status "+e.status);return cleanResponse(e).then(function(e){return t.put(a,e)})})}}))})}).then(function(){return self.skipWaiting()}))}),self.addEventListener("activate",function(e){var c=new Set(urlsToCacheKeys.values());e.waitUntil(caches.open(cacheName).then(function(a){return a.keys().then(function(e){return Promise.all(e.map(function(e){if(!c.has(e.url))return a.delete(e)}))})}).then(function(){return self.clients.claim()}).then(function(){if(!firstRegister)return self.clients.matchAll().then(function(e){e&&e.length&&e.forEach(function(e){e.postMessage("sw.update")})})}))}),self.addEventListener("fetch",function(a){var c,e,t;"GET"===a.request.method&&(c=stripIgnoredUrlParameters(a.request.url,ignoreUrlParametersMatching),t="index.html",(e=urlsToCacheKeys.has(c))||(c=addDirectoryIndex(c,t),e=urlsToCacheKeys.has(c)),e&&a.respondWith(caches.open(cacheName).then(function(e){return e.match(urlsToCacheKeys.get(c)).then(function(e){if(e)return e;throw Error("The cached response that was expected is missing.")})}).catch(function(e){return console.warn('Couldn\'t serve response for "%s" from cache: %O',a.request.url,e),fetch(a.request)})))});
+/**
+ * 自动引入模板，在原有 sw-precache 插件默认模板基础上做的二次开发
+ *
+ * 因为是自定导入的模板，项目一旦生成，不支持随 sw-precache 的版本自动升级。
+ * 可以到 Lavas 官网下载 basic 模板内获取最新模板进行替换
+ *
+ */
+
+/* eslint-disable */
+
+'use strict';
+
+var precacheConfig = [["/2020/Free Minecraft Dungeons/index.html","5b5ba6e06f0bf1a4a2ce6d97b93390a9"],["/2020/hexo更新pages出错应急方法/index.html","567230b5d07f34dca8994851f012160d"],["/2020/定时关机/index.html","0a5268226315776803fd760fc5d546d4"],["/2020/弹出C盘の快乐/index.html","3b3580801480c2274879ee4e09bb1060"],["/2020/杂物/index.html","2028f9dae332a51feb1dee15ae075647"],["/2020/来在MC里玩电脑/index.html","bc200166229e622d59997e1211e7411e"],["/2020/现已通过myssl认证/index.html","4a19ebcfb03a7d65dcae5d66d02e5d6b"],["/2020/用batocera搭建属于你的游戏天地/index.html","a172d8c0bae0b99878beb51f4bdf16ed"],["/2021/GitHub打不开的临时方法/index.html","9cef19fd387437c8ebc51313ea1137b3"],["/2021/vm虚拟机安装甜糖及配置教程/index.html","14c27ebe5bc543fe54af2ddc1f476546"],["/2021/为Stellar主题添加HPP说说功能/index.html","fe49a15e1f473e65e6935c1d14411df7"],["/2021/优化Oneindex的nexmoe主题的加载速度/index.html","534d018f8cd6bc8d487f1f4710b9f80d"],["/2021/免费游玩《戴森球计划》/index.html","ef00157b3a795447188a6d260314db00"],["/2021/搭建Teambition网盘的目录索引/index.html","b9274441419fcb926e7a87f99f4cd5a2"],["/2021/解决Clouddlare-Wrangler无法获取授权/index.html","aa2b7d6b0598460a7f39cb23a28bd5bc"],["/2021/解决VSCode安装Go扩展报错/index.html","240ca5fbe2f702d3b20411d3721c60c2"],["/2021/解决小米手机升级MIUI12-5后无法进入谷歌商店/index.html","f9bca4eb0b5c37d62209e5f7fabfe6ae"],["/2021/记一次简单的水卡破解/index.html","e4f2811e1a3cf83c1ade442838ff3d72"],["/2021/高质量地从ico转为svg/index.html","94656bb571f73175d1a22b06688382f6"],["/404.html","dfef1b15031fa5981a3f5cd6984a6894"],["/about/index.html","8df1dc435f75e52bc021484ffee5c079"],["/archives/2020/01/index.html","cb0fcde4ac7edfc9351a9434d2e34475"],["/archives/2020/08/index.html","a779eda3c15e6d310bfce340eb2eccfb"],["/archives/2020/10/index.html","9ab6d6dae7dcfb65bd96eba29da18c57"],["/archives/2020/11/index.html","37e25962af937d750ee761a1b09a0d00"],["/archives/2020/12/index.html","23b3df9470ce8a275c90b03d90d82753"],["/archives/2020/index.html","78060f68cd8b933360810cfc84cc5532"],["/archives/2021/01/index.html","deca7f4d984edffa6c808a42f696b516"],["/archives/2021/02/index.html","9e7d4b1d9a910eade2f256faada05df8"],["/archives/2021/04/index.html","0d4b6e156e95e9cf19bdfd22e95a86b0"],["/archives/2021/05/index.html","2ea45dff056292cce032bb42c3d8f756"],["/archives/2021/06/index.html","621cd3538268e7e0359d1acab0add81d"],["/archives/2021/07/index.html","d366df7943db2b5e01208d4e3f1ca900"],["/archives/2021/index.html","ab686eadb2cea1b0fdf20f69152a8758"],["/archives/2021/page/2/index.html","3bc729a0541094ba61a716ac4d783b06"],["/archives/index.html","98af885b30317fc73c388f3f0ba65573"],["/archives/page/2/index.html","78d4f062f755e2ebaa04729a66c46db1"],["/assets/js/DPlayer.min.js","472552604f19815d0a634bd3d953171e"],["/css/main.css","800de3d63321ba49ee853bc15c4a0bd3"],["/friends/index.html","0d22d1471f2c32800b009868966e8d73"],["/htalk/index.html","6921674792341da144e3d0c50b412594"],["/img/avatar.png","2d9aa61e592b26e2745f3c161c48c397"],["/img/cookapk.png","f52ac3bb41a4bb050c683590efe0d804"],["/img/default.png","cbecf637ecf1059c2ff594cc419a04f9"],["/img/default1.png","2d9aa61e592b26e2745f3c161c48c397"],["/img/favicon.png","5603316bb5bc54a9d5cab14fddd4c510"],["/img/links/c4at.png","78068e91693b990c5cc8686acd146424"],["/img/loading.gif","15657539044e11a19a1c6c7e3073d1b3"],["/img/mcbed.png","d319cb6e47fc0b0758f3b0d53176eb95"],["/img/music/109951165099284336.jpg","6a672f7c423827e6203fc69ffcbea005"],["/img/music/109951165424074168.jpg","e85b4ee8bf900fb6f04691fbcaeaf68d"],["/img/music/3382097775018074.jpg","d476a079e1ca75057445596d2eb9befb"],["/img/music/zafewaeswfaewgf.png","8c6b072562798490a282cfe6518a73f9"],["/img/police_beian.png","b769e8dfde5660239317ed60758dba13"],["/index.html","e0aa85007eb6b1147be0c40165b63716"],["/js/artalkconfig.js","02f75a69637569d26f818a7292f529fb"],["/js/artalkconfig1.js","7503a7c99db1a8d9f7a5ecdbc25b754d"],["/js/main.js","aa2435c12a8db3f299fa0040b4c2e851"],["/js/plugins/friends.js","4cc40c80b253a51a4c9f4e529a0c3bd5"],["/js/plugins/sites.js","c4dadeae73ba8b89d8a22257c323188e"],["/js/search.js","b2cb417dada66d99255ed5b9ee9de042"],["/morecss/heimu.css","893878b6ac5b5d900687a85244e409a4"],["/morecss/main.css","9f54b91517adaca5a282b5b1f832dd8a"],["/morecss/search.css","ef05d20824c365c1aa71f318522e2b7b"],["/page/2/index.html","0a51f5169e56b16a3a3da5d222f1a189"],["/say/index.html","9cc8c8e556abd21001106487e54a92b6"],["/sw-register.js","c291b072f04a640236cbd0d9b568c2f9"],["/tags/Clouddlare/index.html","0258d15d868942c01d898a1d7b8773d0"],["/tags/Go/index.html","e1a7ddf803161ac8dbdb3be60aee1bba"],["/tags/MIUI/index.html","1b0a4d2cc8991b9fee6b60063909bfd0"],["/tags/Minecraft/index.html","af601190b12be8508ec6ee3a0c06e543"],["/tags/blog/index.html","3c2bed5acf7a6145fdf7aab31273e0f2"],["/tags/cmd命令/index.html","c2a8aec8e3408cffce48f7de98a391c1"],["/tags/free/index.html","0718bc00d400a287695ba8dc425a10fe"],["/tags/github/index.html","2dcd6094512ac7c40fd313331b2c92b7"],["/tags/index.html","f7adcb222e6c55ebf7efe1c7562fccd7"],["/tags/linux/index.html","1d1b9f0b68d50805db36009da1052e0e"],["/tags/oneindex/index.html","2a5455603d8da6700bff1c48b2ace453"],["/tags/ssl认证/index.html","159f0e6ff35b4efefa98a862a9cf884e"],["/tags/web/index.html","bf8bb5d0c36bad5337bff89247e434ae"],["/tags/甜糖/index.html","456b71d12680e0f63f8c2b696de8d6e1"],["/tags/网站/index.html","4d1e0e0038c79f6db72aa0f38e520628"],["/tags/转换/index.html","b6e83336090c5711be68125af852fe79"],["/tools/ghcdn/css.css","86ac5a43f4f56a743f71bf8aae905965"],["/tools/ghcdn/index.css","20c89d2537d1a9fa5bc9390e1be84501"],["/tools/ghcdn/index.html","a04781ed135e85f537f159ecfd361fb7"],["/tools/ghcdn/scrollspy.min.js","4544c47370f4b13f31311969b80d416a"],["/tools/ghcdn/skrollr.min.js","b1f41260da79657330190e2d37cfb4cb"],["/update/index.html","e14a8531af9a6d932caf4b8dec2e46c6"],["/wiki/Artalk/QandA.html","98ab194d449354ffdc45be83c278bfbb"],["/wiki/Artalk/about.html","d4d6fa9b0efe56c50cb13d8402ca3e37"],["/wiki/Artalk/develop.html","5c12136e9eb45bbf4d2e769665fef112"],["/wiki/Artalk/index.html","d6044ccaeda61b80e7cdbba89a43cd66"],["/wiki/Artalk/install.html","5454d27086e1bd09217463ac90b32371"],["/wiki/Artalk/more-url.html","cfb424c82ac1d9f2ac91d4fcc70c4112"],["/wiki/Artalk/use.html","5ab5e33eeef2af41f6a6d5fdf3195cbd"],["/wiki/categories/文档/index.html","efde50eefdb510e9f8de061def5b7f89"],["/wiki/index.html","e169cf62a34a58d85b365cb776933a65"]];
+var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
+var firstRegister = 1; // 默认1是首次安装SW， 0是SW更新
+
+
+var ignoreUrlParametersMatching = [/^utm_/];
+
+
+var addDirectoryIndex = function (originalUrl, index) {
+    var url = new URL(originalUrl);
+    if (url.pathname.slice(-1) === '/') {
+        url.pathname += index;
+    }
+    return url.toString();
+};
+
+var cleanResponse = function (originalResponse) {
+    // 如果没有重定向响应，不需干啥
+    if (!originalResponse.redirected) {
+        return Promise.resolve(originalResponse);
+    }
+
+    // Firefox 50 及以下不知处 Response.body 流, 所以我们需要读取整个body以blob形式返回。
+    var bodyPromise = 'body' in originalResponse ?
+        Promise.resolve(originalResponse.body) :
+        originalResponse.blob();
+
+    return bodyPromise.then(function (body) {
+        // new Response() 可同时支持 stream or Blob.
+        return new Response(body, {
+            headers: originalResponse.headers,
+            status: originalResponse.status,
+            statusText: originalResponse.statusText
+        });
+    });
+};
+
+var createCacheKey = function (originalUrl, paramName, paramValue,
+    dontCacheBustUrlsMatching) {
+
+    // 创建一个新的URL对象，避免影响原始URL
+    var url = new URL(originalUrl);
+
+    // 如果 dontCacheBustUrlsMatching 值没有设置，或是没有匹配到，将值拼接到url.serach后
+    if (!dontCacheBustUrlsMatching ||
+        !(url.pathname.match(dontCacheBustUrlsMatching))) {
+        url.search += (url.search ? '&' : '') +
+            encodeURIComponent(paramName) + '=' + encodeURIComponent(paramValue);
+    }
+
+    return url.toString();
+};
+
+var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+    // 如果 whitelist 是空数组，则认为全部都在白名单内
+    if (whitelist.length === 0) {
+        return true;
+    }
+
+    // 否则逐个匹配正则匹配并返回
+    var path = (new URL(absoluteUrlString)).pathname;
+    return whitelist.some(function (whitelistedPathRegex) {
+        return path.match(whitelistedPathRegex);
+    });
+};
+
+var stripIgnoredUrlParameters = function (originalUrl,
+    ignoreUrlParametersMatching) {
+    var url = new URL(originalUrl);
+    // 移除 hash; 查看 https://github.com/GoogleChrome/sw-precache/issues/290
+    url.hash = '';
+
+    url.search = url.search.slice(1) // 是否包含 '?'
+        .split('&') // 分割成数组 'key=value' 的形式
+        .map(function (kv) {
+            return kv.split('='); // 分割每个 'key=value' 字符串成 [key, value] 形式
+        })
+        .filter(function (kv) {
+            return ignoreUrlParametersMatching.every(function (ignoredRegex) {
+                return !ignoredRegex.test(kv[0]); // 如果 key 没有匹配到任何忽略参数正则，就 Return true
+            });
+        })
+        .map(function (kv) {
+            return kv.join('='); // 重新把 [key, value] 格式转换为 'key=value' 字符串
+        })
+        .join('&'); // 将所有参数 'key=value' 以 '&' 拼接
+
+    return url.toString();
+};
+
+
+var addDirectoryIndex = function (originalUrl, index) {
+    var url = new URL(originalUrl);
+    if (url.pathname.slice(-1) === '/') {
+        url.pathname += index;
+    }
+    return url.toString();
+};
+
+var hashParamName = '_sw-precache';
+var urlsToCacheKeys = new Map(
+    precacheConfig.map(function (item) {
+        var relativeUrl = item[0];
+        var hash = item[1];
+        var absoluteUrl = new URL(relativeUrl, self.location);
+        var cacheKey = createCacheKey(absoluteUrl, hashParamName, hash, false);
+        return [absoluteUrl.toString(), cacheKey];
+    })
+);
+
+function setOfCachedUrls(cache) {
+    return cache.keys().then(function (requests) {
+        // 如果原cacheName中没有缓存任何收，就默认是首次安装，否则认为是SW更新
+        if (requests && requests.length > 0) {
+            firstRegister = 0; // SW更新
+        }
+        return requests.map(function (request) {
+            return request.url;
+        });
+    }).then(function (urls) {
+        return new Set(urls);
+    });
+}
+
+self.addEventListener('install', function (event) {
+    event.waitUntil(
+        caches.open(cacheName).then(function (cache) {
+            return setOfCachedUrls(cache).then(function (cachedUrls) {
+                return Promise.all(
+                    Array.from(urlsToCacheKeys.values()).map(function (cacheKey) {
+                        // 如果缓存中没有匹配到cacheKey，添加进去
+                        if (!cachedUrls.has(cacheKey)) {
+                            var request = new Request(cacheKey, { credentials: 'same-origin' });
+                            return fetch(request).then(function (response) {
+                                // 只要返回200才能继续，否则直接抛错
+                                if (!response.ok) {
+                                    throw new Error('Request for ' + cacheKey + ' returned a ' +
+                                        'response with status ' + response.status);
+                                }
+
+                                return cleanResponse(response).then(function (responseToCache) {
+                                    return cache.put(cacheKey, responseToCache);
+                                });
+                            });
+                        }
+                    })
+                );
+            });
+        })
+            .then(function () {
+            
+            // 强制 SW 状态 installing -> activate
+            return self.skipWaiting();
+            
+        })
+    );
+});
+
+self.addEventListener('activate', function (event) {
+    var setOfExpectedUrls = new Set(urlsToCacheKeys.values());
+
+    event.waitUntil(
+        caches.open(cacheName).then(function (cache) {
+            return cache.keys().then(function (existingRequests) {
+                return Promise.all(
+                    existingRequests.map(function (existingRequest) {
+                        // 删除原缓存中相同键值内容
+                        if (!setOfExpectedUrls.has(existingRequest.url)) {
+                            return cache.delete(existingRequest);
+                        }
+                    })
+                );
+            });
+        }).then(function () {
+            
+            return self.clients.claim();
+            
+        }).then(function () {
+                // 如果是首次安装 SW 时, 不发送更新消息（是否是首次安装，通过指定cacheName 中是否有缓存信息判断）
+                // 如果不是首次安装，则是内容有更新，需要通知页面重载更新
+                if (!firstRegister) {
+                    return self.clients.matchAll()
+                        .then(function (clients) {
+                            if (clients && clients.length) {
+                                clients.forEach(function (client) {
+                                    client.postMessage('sw.update');
+                                })
+                            }
+                        })
+                }
+            })
+    );
+});
+
+
+
+    self.addEventListener('fetch', function (event) {
+        if (event.request.method === 'GET') {
+
+            // 是否应该 event.respondWith()，需要我们逐步的判断
+            // 而且也方便了后期做特殊的特殊
+            var shouldRespond;
+
+
+            // 首先去除已配置的忽略参数及hash
+            // 查看缓存简直中是否包含该请求，包含就将shouldRespond 设为true
+            var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
+            shouldRespond = urlsToCacheKeys.has(url);
+
+            // 如果 shouldRespond 是 false, 我们在url后默认增加 'index.html'
+            // (或者是你在配置文件中自行配置的 directoryIndex 参数值)，继续查找缓存列表
+            var directoryIndex = 'index.html';
+            if (!shouldRespond && directoryIndex) {
+                url = addDirectoryIndex(url, directoryIndex);
+                shouldRespond = urlsToCacheKeys.has(url);
+            }
+
+            // 如果 shouldRespond 仍是 false，检查是否是navigation
+            // request， 如果是的话，判断是否能与 navigateFallbackWhitelist 正则列表匹配
+            var navigateFallback = '';
+            if (!shouldRespond &&
+                navigateFallback &&
+                (event.request.mode === 'navigate') &&
+                isPathWhitelisted([], event.request.url)
+            ) {
+                url = new URL(navigateFallback, self.location).toString();
+                shouldRespond = urlsToCacheKeys.has(url);
+            }
+
+            // 如果 shouldRespond 被置为 true
+            // 则 event.respondWith()匹配缓存返回结果，匹配不成就直接请求.
+            if (shouldRespond) {
+                event.respondWith(
+                    caches.open(cacheName).then(function (cache) {
+                        return cache.match(urlsToCacheKeys.get(url)).then(function (response) {
+                            if (response) {
+                                return response;
+                            }
+                            throw Error('The cached response that was expected is missing.');
+                        });
+                    }).catch(function (e) {
+                        // 如果捕获到异常错误，直接返回 fetch() 请求资源
+                        console.warn('Couldn\'t serve response for "%s" from cache: %O', event.request.url, e);
+                        return fetch(event.request);
+                    })
+                );
+            }
+        }
+    });
+
+
+
+
+
+
+
+
+
+/* eslint-enable */
