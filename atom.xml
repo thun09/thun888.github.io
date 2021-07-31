@@ -45,14 +45,14 @@
     <published>2021-07-26T18:37:56.000Z</published>
     <updated>2021-07-26T18:37:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>不多哔哔，直入主题</p><p>先转到新建环境变量这里（图示为win11</p><p><img src="https://asstes.thun888.xyz/file/pic-bed/2021/07/f0201336e45269ee42dd51c7372223a1.png" alt="image-20210726184507552"></p><p>新建2个（如图）</p><p><img src="https://i0.hdslb.com/bfs/album/705b3a231b995cd3ac7ed8dd103075fdb024fa43.png@.webp" alt="image-20210726184350014"></p><table><thead><tr><th>变量名</th><th>变量值</th></tr></thead><tbody><tr><td>GOPROXY</td><td><a href="https://goproxy.io/">https://goproxy.io</a></td></tr><tr><td>GO111MODULE</td><td>on</td></tr></tbody></table><p>点确定后<strong>重启</strong>再进VSCode里选择<code>install all</code>安装就好</p>]]></content>
+    <content type="html"><![CDATA[<p>不多哔哔，直入主题</p><p>先转到新建环境变量这里（图示为win11</p><p><img src="https://asstes.thun888.xyz/file/pic-bed/2021/07/70d23cfa483b297e2dd987502cc7e683.webp"></p><p>新建2个（如图）</p><p><img src="https://i0.hdslb.com/bfs/album/705b3a231b995cd3ac7ed8dd103075fdb024fa43.png@.webp" alt="image-20210726184350014"></p><table><thead><tr><th>变量名</th><th>变量值</th></tr></thead><tbody><tr><td>GOPROXY</td><td><a href="https://goproxy.io/">https://goproxy.io</a></td></tr><tr><td>GO111MODULE</td><td>on</td></tr></tbody></table><p>点确定后<strong>重启</strong>再进VSCode里选择<code>install all</code>安装就好</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;不多哔哔，直入主题&lt;/p&gt;
 &lt;p&gt;先转到新建环境变量这里（图示为win11&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://asstes.thun888.xyz/file/pic-bed/2021/07/f0201336e45269ee42dd51c7372223a1.p</summary>
+&lt;p&gt;&lt;img src=&quot;https://asstes.thun888.xyz/file/pic-bed/2021/07/70d23cfa483b297e2dd987502cc7e683.w</summary>
       
     
     
